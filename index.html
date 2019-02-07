@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> iGen | Education trust </title>
+    <link rel="stylesheet" href="./css/mat.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./js/handlebars.min.js"></script>
+    <script type="text/x-template" id="partners-template">
+
+        {{#each partners}}
+                <a class="carousel-item"><img src="./images/partners/{{this}}.png"></a>
+            </div>
+        {{/each}}
+        <div>
+
+    </script>
+
+</head>
+
+<body>
+    <div id="home" class="scrollspy"></div>
+    <div class="navbar-fixed">
+
+        <nav class="white">
+            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons black-text"><img
+                        src="./images/menu.svg" alt=""></i></a>
+            <div class="nav-wrapper">
+                <a href="#home" class="brand-logo left"><img src="./images/logo.png" alt="iGen Logo"></a>
+                <ul id="nav-mobile" class="center hide-on-med-and-down section table-of-contents">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#management">Management</a></li>
+                    <li><a href="#funding">Funding</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#footer">Say Hello</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <ul id="slide-out" class="sidenav section table-of-contents">
+        <li>
+            <div class="user-view">
+                <a><img class="circle" src="./images/logo-small.png"></a>
+                <br>
+            </div>
+        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about2">About</a></li>
+        <li><a href="#management2">Management</a></li>
+        <li><a href="#funding2">Funding</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#partners2">Partners</a></li>
+        <li><a href="#support2">Support</a></li>
+        <li><a href="#footer">Say Hello</a></li>
+    </ul>
+    <div class="row margin-remove">
+        <!-- FULLL WIDTH CAROUSEL -->
+        <br><br>
+        <div id="top-slider" class="carousel carousel-slider s12 m6 l6" indicators="true">
+            <a class="carousel-item" href="">
+                <img src="./images/slide1.jpg">
+            </a>
+            <a class="carousel-item" href="">
+                <img src="./images/slide2.jpg">
+            </a>
+            <a class="carousel-item" href="">
+                <img src="./images/slide3.jpg">
+            </a>
+            <a class="carousel-item" href="">
+                <img src="./images/slide4.jpg">
+            </a>
+        </div>
+    </div>
+    <section id="about" class="section scrollspy blue lighten-1">
+        <div class="container">
+            <div class="row white-text">
+                <div class="col s12 m12 l12">
+                    <h3 class="">About</h3>
+                    <div id="about2" class="section scrollspy"> </div>
+
+                    <i>"He who opens a school door, closes a prison." - Victor Hugo</i>
+                    <br>
+                    iGen Education Trust is a non-profit organisation whose primary objective is to make higher
+                    education
+                    in South Africa accessible and equitable for every qualifying student. This will ensure that
+                    quality
+                    education becomes a reality for ALL university students in South Africa regardless of race, gender,
+                    social status, economic background, religion or political affiliation. Our desire is to give each
+                    student an equal chance to realize their full potential in life and contribute towards an improved
+                    quality of life for themselves and their families. In the long term, we see ourselves influencing
+                    the
+                    design and delivery of education in South Africa. We believe high quality, purpose-driven education
+                    can
+                    transform students into citizens who are able to contribute meaningfully in the provision of
+                    solutions
+                    needed to address social, political and economic challenges societies face today.
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="row white-text">
+                <div class="col s12 m6 l6">
+                    <h3> We Believe </h3>
+                    <br>
+                    <blockquote>In the power of education to <strong>CATALYSE</strong> social and economic change.</blockquote>
+                    <blockquote> By enabling <strong>EQUITABLE</strong> education, we can close the gaps that separate
+                        students on the
+                        basis
+                        of affordability.</blockquote>
+
+                    <blockquote>Quality tertiary education is vital to <strong> SUSTAINING OUR DEMOCRACY</strong> and
+                        can
+                        <strong>STRENGTHEN</strong> South
+                        Africa.</blockquote>
+                </div>
+                <div class="col s12 m6 l6">
+                    <h3>Our promise</h3>
+                    <br>
+                    <blockquote> We promise to endeavour to serve every South African
+                        child who deserves to be at a
+                        tertiary
+                        institution and needs funding, irrespective of cultural background.</blockquote>
+
+                    <blockquote> We promise to be <strong>TRUTHFUL</strong> in the manner in which we conduct ourselves
+                        and deliver on
+                        our
+                        mandate</blockquote>
+                    <blockquote> We promise to not compromise on <strong>INTEGRITY, EXCELLENCE</strong> and who we are.</blockquote>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="management" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="center">Management</h3>
+                <div class="col s12 m6 l6">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./images/lullutshiwula.jpg">
+                        </div>
+                        <div id="management2" class="section scrollspy"> </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Prof. Lullu Tshiwula
+                                </span>
+                                <p>Board Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./images/lulungalo.jpg">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Dr Lulu Ngalo-Morrison
+                                </span>
+                                <p>Board Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./images/mbulelobikwani.jpg">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Mr Mbulelo Bikwani
+                                </span>
+                                <p>Chairperson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./images/solanilidzhade.jpg">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Solani Lidzhede
+                                </span>
+                                <p>Board Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="funding" class="section scrollspy  grey lighten-2">
+        <div class="container">
+            <div class="row">
+                <h3 class="center">Funding</h3>
+                <div id="funding2" class="section scrollspy"> </div>
+                <div class="col s12 m6 l6">
+                    <h2> How Applications Work</h2>
+
+                    <p> Any student who has been accepted into an accredited South African university but either lacks
+                        or does not have sufficient means to pay for their studies.</p>
+
+                    <p> <img class="check" src="./images/check.svg" alt=""> Submit your application for funding.</p>
+                    <p> <img class="check" src="./images/check.svg" alt="">Submit your varsity application.</p>
+                    <p><img class="check" src="./images/check.svg" alt="">Get Tuition, prescribed books and approved
+                        study materials.</p>
+                    <p> <img class="check" src="./images/check.svg" alt="">Accommodation and meals are included on your
+                        funding.</p>
+                    <p> <img class="check" src="./images/check.svg" alt="">Funding is renewed with every
+                        progressive year of study.</p>
+                </div>
+
+                <div class="col s12 m6 l6 ">
+                    <img class="funding-image" src="./images/students.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="partners" class="section scrollspy ">
+        <h3 id="partner-head" class="center white-text">Our Partner Institutions</h3>
+        <div id="partners2" class="section scrollspy"> </div>
+        <div id="partner-items" class="carousel partner-caurosel">
+        </div>
+    </section>
+
+    <section id="support" class="scrollspy">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col s12 m12 l12">
+
+                    <h3>Support iGen</h3>
+                    <hr>
+                    <div id="support2" class="section scrollspy"> </div>
+                    <p>Thank you so much for helping us advance our cause. A single or once-off donation of any amount
+                        can
+                        be
+                        made at any time. You may make a direct deposit at any bank using the banking details below.
+                    </p>
+                    You prefer to make an electronic payment? Click here now
+                    <p>
+                        Individual donors can contribute on a monthly basis. There is an opportunity to participate in
+                        the
+                        network marketing opportunity offered by our Service Provider, Expansior (Pty) Ltd. This is an
+                        amazingly beneficial opportunity which enables individual donors to generate revenue by
+                        referring
+                        others to support iGen. To learn more about the network marketing opportunity, please Click
+                        here
+                        (link
+                        to Expansior)
+                    </p>
+                    <p>Is network marketing not for you? Do you just want to join the iGen Movement by contributing a
+                        monthly
+                        donation? Click here (link to Leon’s site)
+                    </p>
+                    <p>
+                        To contribute monthly and participate in network marketing, go here now (link to Leon’s system)</p>
+
+                    <h4>Use of funds</h4>
+                    <hr>
+                    <p>Funds collected by iGen are predominantly used to pay for qualifying students studying at any of
+                        the
+                        tertiary institutions in South Africa. We will start by covering only such students at the 27
+                        universities in South Africa, and as funds grow, we intend to cover students studying selected
+                        courses
+                        at other tertiary institutions in South Africa and other parts of the world.
+
+                        Surplus funds may also be used to support the advancement of university programmes in order to
+                        improve
+                        the quality of higher education.</p>
+                    <p>
+                        <h4>Corporate Donations</h4>
+                        <hr>
+                        Corporates can support our mission once-off, regularly or monthly. Whatever your choice is, a
+                        Section
+                        18A certificate will be issued to your organisation.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col s12 m4 l4 ">
+                        <div class="card yellow darken-2">
+                            <div class="card-content white-text">
+                                <h5 class="center"> 300 <br>
+                                    Donors Registered</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card blue darken-2">
+                            <div class="card-content white-text">
+                                <h5 class="center">
+                                    1,700 <br>
+                                    Funds Raised
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card red darken-2">
+                            <div class="card-content white-text">
+                                <h5 class="center">11,900 <br>
+                                    Students Covered</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="footer" class="page-footer black lighten section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5 class="grey-text">Physical Address</h5>
+
+                    <p class="grey-text">
+                        <a href="http://maps.google.com/?q=No. 52, CJ Langenhoven Street,Parow North, 7500" target="_blank">No.
+                            52, CJ Langenhoven Street,<br>Parow North,<br> 7500</a>
+                    </p>
+                </div>
+                <div class="col s12 m4 offset-m2">
+                    <h5 class="grey-text">Contact</h5>
+                    <ul>
+                        <li><a href="mailto:info@igenedutrust.org.za">Email: info@igenedutrust.org.za</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="footer-copyright">
+            <div class="container center">
+                Copyright &copy; 2019 iGen Education Trust All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript-->
+    <script src="./js/script.js"></script>
+    <script src="./js/mat.min.js"></script>
+</body>
+
+</html>

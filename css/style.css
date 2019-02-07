@@ -1,0 +1,108 @@
+/* Custom styles and materialize override */
+
+
+/* Global styles */
+
+.margin-remove {
+    margin: 0px;
+}
+
+/* Navigation */
+
+nav {
+    height: 200px;
+}
+
+nav i.material-icons {
+    font-size: 30px;
+    position: relative;
+    top: 25px;
+}
+
+.nav-wrapper img {
+    width: 280px;
+}
+
+nav ul li {
+    font-size: 20px;
+    position: relative;
+    left: 300px;
+    top: 100px
+}
+
+nav ul a {
+    color: black;
+    font-size: 22px
+}
+
+/* Side navigation */
+.sidenav {
+    width: 50%;
+}
+
+/* partners */
+#partners {
+    background-color: #169ed7;
+}
+
+
+
+
+/*  carousel */
+
+/* carousel*/
+
+
+/* about section */
+
+/* card */
+/* card-image */
+.card-image img {
+    height: 180px;
+}
+
+.categories .card {
+    width: 90%;
+}
+
+.check {
+    position: relative;
+    top: 6px;
+}
+
+/* funding */
+.funding-image {
+    position: relative;
+    top: 35px;
+    width: 100%;
+}
+
+
+/* Media queries*/
+@media only screen and (max-width: 600px) {
+
+    #partner-head {
+        position: relative;
+        top: 45px;
+    }
+
+    nav {
+        height: 110px;
+    }
+
+    .brand-logo img {
+        width: 40%;
+        position: relative;
+        left: 80px;
+    }
+
+    .categories .card img {
+        height: 280px;
+    }
+
+    .categories .card {
+        position: relative;
+        left: 15px;
+
+    }
+}
