@@ -1,9 +1,9 @@
 // initialize material and custom javascript
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    M.AutoInit();
 
+document.addEventListener('DOMContentLoaded', function () {
+    // M.AutoInit();
     var topSlider = document.querySelectorAll('#top-slider');
     var carouselInstances = M.Carousel.init(topSlider, {
         indicators: true,
@@ -17,9 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
         dist: -20,
         padding: 55
     });
+    // scrollspy
+    var scrollspyElems = document.querySelectorAll('.scrollspy');
+    var scrollspyInstances = M.ScrollSpy.init(scrollspyElems, {});
 
-
-
+    // sidenav initilalize
+    var sideNavElement = document.querySelectorAll('.sidenav');
+    var sideNavInstance = M.Sidenav.init(sideNavElement, {});
+    // slide function for carousel
     let slide = () => {
         var carousel = document.getElementById('top-slider');
         instance = M.Carousel.getInstance(carousel);
@@ -27,7 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(slide, 2500);
     }
     slide();
+
+
 });
+
+
 
 // Handlebars compilation for the partners caourosel
 

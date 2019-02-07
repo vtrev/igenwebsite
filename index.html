@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/mat.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
     <script src="./js/handlebars.min.js"></script>
     <script type="text/x-template" id="partners-template">
 
@@ -23,15 +24,16 @@
 </head>
 
 <body>
-    <div id="home" class="scrollspy"></div>
-    <div class="navbar-fixed">
+    <div id="home" class=""></div>
 
+    <div class="navbar-fixed">
         <nav class="white">
-            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons black-text"><img
-                        src="./images/menu.svg" alt=""></i></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only">
+                <i class="material-icons black-text"><img src="./images/menu.svg" alt=""></i>
+            </a>
             <div class="nav-wrapper">
                 <a href="#home" class="brand-logo left"><img src="./images/logo.png" alt="iGen Logo"></a>
-                <ul id="nav-mobile" class="center hide-on-med-and-down section table-of-contents">
+                <ul id="nav-mobile" class=" hide-on-med-and-down section table-of-contents">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#management">Management</a></li>
@@ -39,13 +41,10 @@
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#support">Support</a></li>
                     <li><a href="#footer">Say Hello</a></li>
-
                 </ul>
             </div>
         </nav>
     </div>
-
-
     <ul id="slide-out" class="sidenav section table-of-contents">
         <li>
             <div class="user-view">
@@ -64,10 +63,10 @@
         <li><a href="#support2">Support</a></li>
         <li><a href="#footer">Say Hello</a></li>
     </ul>
+    <div class="spacer"></div>
     <div class="row margin-remove">
-        <!-- FULLL WIDTH CAROUSEL -->
-        <br><br>
-        <div id="top-slider" class="carousel carousel-slider s12 m6 l6" indicators="true">
+
+        <div id="top-slider" class="carousel carousel-slider">
             <a class="carousel-item" href="">
                 <img src="./images/slide1.jpg">
             </a>
@@ -244,7 +243,7 @@
         </div>
     </section>
 
-    <section id="support" class="scrollspy">
+    <section id="support" class="section scrollspy">
         <div class="container">
             <br>
             <div class="row">
@@ -356,6 +355,9 @@
         </div>
     </footer>
     <!-- JavaScript-->
+    <script>
+
+    </script>
     <script src="./js/script.js"></script>
     <script src="./js/mat.min.js"></script>
 </body>

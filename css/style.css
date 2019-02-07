@@ -3,8 +3,19 @@
 
 /* Global styles */
 
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+
 .margin-remove {
-    margin: 0px;
+    margin: 0 auto;
+
+}
+
+.brand-logo img {
+    width: 40%;
 }
 
 /* Navigation */
@@ -13,14 +24,15 @@ nav {
     height: 200px;
 }
 
+.spacer {
+    width: 100%;
+    height: 126px;
+}
+
 nav i.material-icons {
     font-size: 30px;
     position: relative;
     top: 25px;
-}
-
-.nav-wrapper img {
-    width: 280px;
 }
 
 nav ul li {
@@ -36,8 +48,9 @@ nav ul a {
 }
 
 /* Side navigation */
-.sidenav {
-    width: 50%;
+
+#top-slider {
+    height: 485.594px !important;
 }
 
 /* partners */
@@ -45,12 +58,12 @@ nav ul a {
     background-color: #169ed7;
 }
 
-
-
-
 /*  carousel */
 
 /* carousel*/
+.carousel .carousel-slider {
+    height: 50px;
+}
 
 
 /* about section */
@@ -81,6 +94,22 @@ nav ul a {
 /* Media queries*/
 @media only screen and (max-width: 600px) {
 
+    .carousel .carousel-slider {
+        height: 200px;
+    }
+
+    #top-slider {
+        height: 260px !important;
+    }
+
+    #top-slider a img {
+        height: 65%;
+    }
+
+    .sidenav {
+        width: 50%;
+    }
+
     #partner-head {
         position: relative;
         top: 45px;
@@ -90,10 +119,15 @@ nav ul a {
         height: 110px;
     }
 
+    .spacer {
+        width: 100%;
+        height: 55px;
+    }
+
     .brand-logo img {
         width: 40%;
         position: relative;
-        left: 80px;
+        left: 110px;
     }
 
     .categories .card img {
