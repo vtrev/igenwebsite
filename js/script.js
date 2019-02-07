@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var carousel = document.getElementById('top-slider');
         instance = M.Carousel.getInstance(carousel);
         instance.next();
-        setTimeout(slide, 2500);
+        setTimeout(slide, 3000);
     }
     slide();
 });
