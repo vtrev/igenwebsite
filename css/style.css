@@ -2,6 +2,35 @@
 
 
 /* Global styles */
+p {
+    font-family: Proxima-sans;
+    font-weight: lighter;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Objective;
+}
+
+.belive,
+.promise p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.belive hr,
+.promise hr {
+    border-top: 2px solid white;
+
+
+}
+
+.bullet {
+    height: 30px;
+}
 
 .slider img {
     width: 100%;
@@ -20,6 +49,20 @@
 
 /* Navigation */
 
+.table-of-contents a:hover {
+    background-color: white;
+    border-left: 1px solid #FEC20E !important;
+    transition: width .3s;
+
+}
+
+.table-of-contents a.active {
+    font-weight: 500;
+    padding-left: 14px;
+    border-left: 2px solid #FEC20E !important;
+    /* border-left: none; */
+}
+
 nav {
     height: 200px;
 }
@@ -37,6 +80,8 @@ nav i.material-icons {
 
 nav ul li {
     font-size: 20px;
+    font-weight: bolder;
+    font-family: Objective;
     position: relative;
     left: 300px;
     top: 100px
@@ -52,6 +97,20 @@ nav ul a {
 #top-slider {
     height: 485.594px !important;
 }
+
+/* management */
+#management {
+    background-color: #109dd5;
+    background-image: url("../images/managementbg.svg");
+
+}
+
+.circle {
+    height: 280px;
+    width: 285px;
+    border-radius: 50%;
+}
+
 
 /* partners */
 #partners {
@@ -70,8 +129,11 @@ nav ul a {
 
 /* card */
 /* card-image */
+
+
 .card-image img {
     height: 180px;
+    border-radius: 50%;
 }
 
 .categories .card {
@@ -93,6 +155,9 @@ nav ul a {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+    .bullet {
+        height: 28px;
+    }
 
     .carousel .carousel-slider {
         height: 200px;
@@ -127,6 +192,7 @@ nav ul a {
     .brand-logo img {
         width: 40%;
         position: relative;
+        text-align: center;
         left: 110px;
     }
 
@@ -139,4 +205,41 @@ nav ul a {
         left: 15px;
 
     }
+}
+
+@media screen and (max-width: 900px) and (min-width: 605px) {
+    nav {
+        height: 125px;
+    }
+
+
+    #top-slider {
+        height: 377.594px !important;
+    }
+
+    .spacer {
+        width: 100%;
+        height: 62px;
+    }
+
+    .brand-logo img {
+        width: 26%;
+        position: relative;
+        text-align: center;
+        left: 273px;
+    }
+
+}
+
+
+
+/* import fonts */
+@font-face {
+    font-family: Objective;
+    src: url("./fonts/Objective-Regular.otf");
+}
+
+@font-face {
+    font-family: Proxima-sans;
+    src: url("./fonts/proxima-sans.ttf")
 }
