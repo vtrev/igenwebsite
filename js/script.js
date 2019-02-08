@@ -21,11 +21,20 @@ document.addEventListener('DOMContentLoaded', function () {
     var scrollspyElems = document.querySelectorAll('.scrollspy');
     var scrollspyInstances = M.ScrollSpy.init(scrollspyElems, {});
 
+    var partner2ScrollspyElems = document.querySelectorAll('#partners2');
+    var scrollspyInstances = M.ScrollSpy.init(partner2ScrollspyElems, {
+        scrollOffset: 100
+    });
+    var management2ScrollspyElems = document.querySelectorAll('#management2');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 250
+    });
+
     // sidenav initilalize
     var sideNavElement = document.querySelectorAll('.sidenav');
     var sideNavInstance = M.Sidenav.init(sideNavElement, {});
     // slide function for carousel
-    let slide = () => {
+    var slide = () => {
         var carousel = document.getElementById('top-slider');
         instance = M.Carousel.getInstance(carousel);
         instance.next();

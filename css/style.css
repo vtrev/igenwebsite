@@ -182,6 +182,10 @@ hr.custom {
     width: 100%;
 }
 
+#partners {
+    padding-inline-end: 0%;
+}
+
 /* support */
 #support hr {
     border: 1px solid;
@@ -303,7 +307,8 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
-    #funding img {
+
+    .menu-tab {
         display: none !important;
     }
 
