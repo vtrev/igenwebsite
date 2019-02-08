@@ -98,11 +98,18 @@ nav ul a {
     height: 485.594px !important;
 }
 
-/* management */
-#management {
-    background-color: #109dd5;
-    background-image: url("../images/managementbg.svg");
+/* fancy hr */
+hr.custom {
+    margin: 1px 0px;
+    border: 0;
+    height: 1px;
+}
 
+
+/* management */
+
+#management {
+    background-image: url("../images/managementbg.svg");
 }
 
 .circle {
@@ -208,6 +215,10 @@ nav ul a {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+    #home.section {
+        padding-top: 0px;
+    }
+
     nav {
         height: 125px;
     }
@@ -230,8 +241,6 @@ nav ul a {
     }
 
 }
-
-
 
 /* import fonts */
 @font-face {
