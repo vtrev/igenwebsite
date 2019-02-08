@@ -2,9 +2,14 @@
 
 
 /* Global styles */
+#home.section {
+    padding-top: 0px;
+}
+
 p {
     font-family: Proxima-sans;
     font-weight: lighter;
+    font-size: 16px;
 }
 
 h1,
@@ -16,9 +21,10 @@ h5 {
 }
 
 .belive,
-.promise p {
+.promise,
+#about p {
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: inter-cluster;
 }
 
 .belive hr,
@@ -30,6 +36,8 @@ h5 {
 
 .bullet {
     height: 30px;
+    /* margin: 20px 0; */
+    /* padding-left: 1.5rem; */
 }
 
 .slider img {
@@ -108,11 +116,21 @@ hr.custom {
 
 /* management */
 
-#management {
+#management,
+#partners {
     background-image: url("../images/managementbg.svg");
 }
 
+#management h5 {
+    font-weight: bold;
+}
+
 .circle {
+    border-radius: 50%;
+    height: 150%;
+}
+
+.circle-image {
     height: 280px;
     width: 285px;
     border-radius: 50%;
@@ -153,15 +171,148 @@ hr.custom {
 }
 
 /* funding */
+#funding img {
+    width: 50%;
+    height: 50%;
+}
+
 .funding-image {
     position: relative;
     top: 35px;
     width: 100%;
 }
 
+/* support */
+#support hr {
+    border: 1px solid;
+}
+
+#support {
+    color: darkslategray;
+}
+
+
+/* funding */
+/* flat tabs */
+.flat-tabs ul.menu-tab {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.flat-tabs ul.menu-tab:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #eeeeee;
+    content: "";
+    z-index: 2;
+}
+
+.flat-tabs ul.menu-tab li {
+    display: inline-block;
+}
+
+.flat-tabs ul.menu-tab li a {
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 2px solid #eeeeee;
+    list-style-type: none;
+    border-radius: 50%;
+    margin-right: 200px;
+    display: block;
+}
+
+.flat-tabs ul.menu-tab li a:before,
+.flat-tabs ul.menu-tab li a:after {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+    top: 50%;
+    left: -22px;
+    position: absolute;
+}
+
+.flat-tabs ul.menu-tab li a:after {
+    left: 100%;
+    margin-left: 2px;
+}
+
+.flat-tabs ul.menu-tab li.active a,
+.flat-tabs ul.menu-tab li a:hover {
+    border: 2px solid #ffaa30;
+    color: #fff;
+    background-color: #ffaa30;
+    color: #fff;
+}
+
+.flat-tabs ul.menu-tab li:last-child a {
+    margin-right: 0;
+}
+
+.flat-tabs ul.menu-tab li a {
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    color: #999999;
+    font-size: 16px;
+}
+
+.flat-tabs .flat-title {
+    margin-bottom: 34px;
+}
+
+.flat-tabs .content-tab .text-tab {
+    width: 59.82905982905983%;
+    float: left;
+    padding-right: 60px;
+    padding-top: 5px;
+}
+
+.flat-tabs .content-tab .images-tab {
+    width: 40.17094017094017%;
+    float: left;
+}
+
+.flat-tabs .content-tab p {
+    margin-bottom: 20px;
+}
+
+#funding2 .btn-large {
+    height: 100px;
+    width: 100px;
+}
+
+/* #funding2 hr {
+    width: 5px;
+} */
+
+#funding2 p {
+    font-weight: bold;
+    position: relative;
+    top: 6px;
+    right: 2px;
+}
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+    #funding img {
+        display: none !important;
+    }
+
+    nav i.material-icons {
+        padding: 5px;
+        position: relative;
+        right: 15px;
+    }
+
     .bullet {
         height: 28px;
     }
@@ -182,10 +333,7 @@ hr.custom {
         width: 50%;
     }
 
-    #partner-head {
-        position: relative;
-        top: 45px;
-    }
+
 
     nav {
         height: 110px;
@@ -200,7 +348,7 @@ hr.custom {
         width: 40%;
         position: relative;
         text-align: center;
-        left: 110px;
+        left: 95px;
     }
 
     .categories .card img {
@@ -211,6 +359,12 @@ hr.custom {
         position: relative;
         left: 15px;
 
+    }
+
+    .circle-image {
+        height: 270px;
+        width: 270px;
+        border-radius: 50%;
     }
 }
 
