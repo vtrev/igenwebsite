@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         instance.next();
         setTimeout(slide, 3000);
     }
-    // slide();
+    slide();
 
 
 });
