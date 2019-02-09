@@ -5,6 +5,10 @@
 /* .believe-list {
     list-style-image: url("../images/bullet.png");
 } */
+.blue {
+    color: #109DD5 !important;
+    background-color: #109DD5 !important;
+}
 
 .believe-list {
     list-style: none;
