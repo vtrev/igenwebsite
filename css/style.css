@@ -97,15 +97,17 @@ h5 {
 
 .table-of-contents a:hover {
     background-color: white;
-    border-left: 1px solid #FDC016 !important;
+    border-left: none;
     transition: width .3s;
+    color: #109DD5;
 
 }
 
 .table-of-contents a.active {
     font-weight: 500;
     padding-left: 14px;
-    border-left: 2px solid #FDC016 !important;
+    color: #109DD5;
+    border-left: none !important;
     /* border-left: none; */
 }
 
