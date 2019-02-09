@@ -17,7 +17,6 @@
 
 .believe-list li {
     position: relative;
-    /* bottom: 5px; */
     padding-left: 34px;
 }
 
@@ -77,9 +76,6 @@ h5 {
 .bullet {
     height: 30px;
     display: inline-block;
-
-    /* margin: 20px 0; */
-    /* padding-left: 1.5rem; */
 }
 
 .slider img {
@@ -101,7 +97,7 @@ h5 {
 
 .table-of-contents a:hover {
     background-color: white;
-    border-left: 1px solid #FEC20E !important;
+    border-left: 1px solid #FDC016 !important;
     transition: width .3s;
 
 }
@@ -109,7 +105,7 @@ h5 {
 .table-of-contents a.active {
     font-weight: 500;
     padding-left: 14px;
-    border-left: 2px solid #FEC20E !important;
+    border-left: 2px solid #FDC016 !important;
     /* border-left: none; */
 }
 
@@ -122,24 +118,17 @@ nav {
     height: 126px;
 }
 
-/* nav i.material-icons {
-    font-size: 30px;
-    position: relative;
-    top: 25px;
-} */
 
 nav ul li {
-    font-size: 20px;
     font-weight: bolder;
-    font-family: Objective;
     position: relative;
-    left: 300px;
-    top: 100px
+    top: 85px
 }
 
 nav ul a {
-    color: black;
-    font-size: 22px
+    color: gray;
+    font-size: 24px;
+    font-family: Calmwaters;
 }
 
 /* Side navigation */
