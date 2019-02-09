@@ -118,11 +118,11 @@ nav {
     height: 126px;
 }
 
-nav i.material-icons {
+/* nav i.material-icons {
     font-size: 30px;
     position: relative;
     top: 25px;
-}
+} */
 
 nav ul li {
     font-size: 20px;
@@ -351,9 +351,9 @@ hr.custom {
     }
 
     nav i.material-icons {
-        padding: 5px;
+        padding: 15px;
         position: relative;
-        right: 15px;
+        right: 10px;
     }
 
     .bullet {
@@ -389,9 +389,6 @@ hr.custom {
 
     .brand-logo img {
         width: 40%;
-        position: relative;
-        text-align: center;
-        left: 95px;
     }
 
     .categories .card img {
@@ -432,9 +429,6 @@ hr.custom {
 
     .brand-logo img {
         width: 26%;
-        position: relative;
-        text-align: center;
-        left: 273px;
     }
 
 }

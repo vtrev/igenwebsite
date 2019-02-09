@@ -32,7 +32,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // sidenav initilalize
     var sideNavElement = document.querySelectorAll('.sidenav');
-    var sideNavInstance = M.Sidenav.init(sideNavElement, {});
+    var sideNavInstance = M.Sidenav.init(sideNavElement, {
+        edge: 'right'
+    });
     // slide function for carousel
     var slide = () => {
         var carousel = document.getElementById('top-slider');
@@ -41,11 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(slide, 5000);
     }
     slide();
-
-
 });
-
-
 
 // Handlebars compilation for the partners caourosel
 
