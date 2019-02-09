@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var carousel = document.getElementById('top-slider');
         instance = M.Carousel.getInstance(carousel);
         instance.next();
-        setTimeout(slide, 3000);
+        setTimeout(slide, 5000);
     }
     slide();
 
