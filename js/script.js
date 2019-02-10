@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var partnerCarousel = document.querySelectorAll('.partner-caurosel');
     var partnerCarouselInstance = M.Carousel.init(partnerCarousel, {
         indicators: false,
-        numVisible: 10,
-        dist: -30,
+        numVisible: 12,
+        dist: -25,
         padding: 35
     });
     // scrollspy
@@ -44,16 +44,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     // slide function for carousel
     var slide = () => {
-        var carousel = document.getElementById('top-slider');
+        let carousel = document.getElementById('top-slider');
         instance = M.Carousel.getInstance(carousel);
         instance.next();
         setTimeout(slide, 5000);
     }
+    var slide2 = () => {
+        let carousel = document.getElementById('partner-items');
+        instance = M.Carousel.getInstance(carousel);
+        instance.next();
+        setTimeout(slide2, 1500);
+    }
     slide();
+    slide2();
 });
 
 // Handlebars compilation for the partners caourosel
-
 let generatePartners = function (partners) {
     var partnersElement = document.getElementById("partner-items");
     var partnersTemplateSource = document.getElementById("partners-template").innerHTML;

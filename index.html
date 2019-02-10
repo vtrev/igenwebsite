@@ -36,7 +36,7 @@
                     <li><a href="#management">Management</a></li>
                     <li><a href="#funding">Funding</a></li>
                     <li><a href="#partners">Partners</a></li>
-                    <li><a href="#support" class="yellow">Support</a></li>
+                    <li><a class="yellow" href="#support">Support</a></li>
                     <li><a href="#footer">Say Hello</a></li>
                 </ul>
             </div>
@@ -122,11 +122,11 @@
                     <br>
                     <ul class="believe-list">
                         <li>
-                            <p>In the power of education to <strong>CATALYSE</strong>
+                            <p>In the power of education to <b>CATALYSE</b>
                                 social and economic change.</p>
                         </li>
                         <li>
-                            <p>By enabling <strong>EQUITABLE</strong>
+                            <p>By enabling <b>EQUITABLE</b>
                                 education, we can close the gaps that separate
                                 students on the
                                 basis
@@ -134,7 +134,7 @@
                         </li>
                         <li>
                             <p>Quality tertiary education is vital to
-                                <strong>SUSTAINING OUR DEMOCRACY </strong>and can<strong> STRENGTHEN</strong> South
+                                <b>SUSTAINING OUR DEMOCRACY </b>and can<b> STRENGTHEN</b> South
                                 Africa.</p>
                         </li>
                     </ul>
@@ -151,13 +151,13 @@
                                 institution and needs funding, irrespective of cultural background.</p>
                         </li>
                         <li>
-                            <p>We promise to be <strong>TRUTHFUL</strong>
+                            <p>We promise to be <b>TRUTHFUL</b>
                                 in the manner in which we conduct ourselves
                                 and deliver on our mandate.</p>
                         </li>
                         <li>
                             <p>We promise to not compromise on
-                                <strong>INTEGRITY, EXCELLENCE</strong> and who we are.</p>
+                                <b>INTEGRITY, EXCELLENCE</b> and who we are.</p>
                         </li>
                     </ul>
                 </div>
@@ -232,8 +232,8 @@
                     <div class="col s12 m12 l10">
                         <ul class="menu-tab">
                             <li @click="selected = 1" :class="{active:selected == 1}"><a>Who</a></li>
-                            <li @click="selected = 2" :class="{active:selected == 2}"><a>What</a></li>
-                            <li @click="selected = 3" :class="{active:selected == 3}"><a>How</a></li>
+                            <li @click="selected = 2" :class="{active:selected == 2}" class="active"><a>What</a></li>
+                            <li @click="selected = 3" :class="{active:selected == 3}" class="active"><a>How</a></li>
                         </ul>
                     </div>
                 </div>
@@ -274,13 +274,13 @@
         </div>
         <div id="partners2" class="section scrollspy"></div>
     </section>
-    <section id="support" class="section scrollspy yellow darken-1">
+    <section id="support" class="section scrollspy">
         <div class="container">
             <div class="row">
                 <div class="col s12 m12 l12">
                     <h3>Support iGen</h3>
                 </div>
-                <div class="col s12 m12 l12">
+                <div class="col s12 m12 l12 grey-text">
                     <div id="support2" class="section scrollspy"> </div>
                     <p>Thank you so much for helping us advance our cause. A single or once-off donation of any
                         amount
@@ -289,7 +289,7 @@
                         made at any time. You may make a direct deposit at any bank using the banking details
                         below.
                     </p>
-                    You prefer to make an electronic payment? Click here now
+                    You prefer to make an electronic payment? <b>Click here now.</b>
                     <p>
                         Individual donors can contribute on a monthly basis. There is an opportunity to participate
                         in
@@ -298,19 +298,19 @@
                         an
                         amazingly beneficial opportunity which enables individual donors to generate revenue by
                         referring
-                        others to support iGen. To learn more about the network marketing opportunity, please Click
-                        here
-                        (link
-                        to Expansior)
+                        others to support iGen. To learn more about the network marketing opportunity, please <b>Click
+                            here
+                            (link
+                            to Expansior)</b>
                     </p>
                     <p>Is network marketing not for you? Do you just want to join the iGen Movement by contributing
                         a
                         monthly
-                        donation? Click here (link to Leon’s site)
+                        donation? <b>Click here (link to Leon’s site)</b>
                     </p>
                     <p>
-                        To contribute monthly and participate in network marketing, go here now (link to Leon’s
-                        system)</p>
+                        To contribute monthly and participate in network marketing, <b>go here now (link to Leon’s
+                            system)</b></p>
 
                     <h4>Use of funds</h4>
                     <hr>
@@ -331,19 +331,19 @@
                     <p>
                         <h4>Corporate Donations</h4>
                         <hr>
-                        Corporates can support our mission once-off, regularly or monthly. Whatever your choice is,
-                        a
-                        Section
-                        18A certificate will be issued to your organisation.
-                    </p>
-                    <br>
-                    <h4>Stats</h4>
-                    <hr>
+                        <p>Corporates can support our mission once-off, regularly or monthly. Whatever your choice is,
+                            a
+                            Section
+                            18A certificate will be issued to your organisation.
+                        </p>
+                        <br>
+                        <h4>Stats</h4>
+                        <hr>
                 </div>
-                <div class="row">
+                <div id="stats" class="row">
                     <div class="col s12 m4 l4 ">
                         <div class="card yellow darken-3">
-                            <div class="card-content white-text">
+                            <div class="card-content white-text center">
                                 <h5 class="center"> 300 <br>
                                     Donors Registered</h5>
                             </div>
@@ -351,7 +351,8 @@
                     </div>
                     <div class="col s12 m4 l4">
                         <div class="card yellow darken-3">
-                            <div class="card-content white-text">
+                            <div class="card-content white-text center">
+
                                 <h5 class="center">
                                     1,700 <br>
                                     Funds Raised
@@ -361,7 +362,7 @@
                     </div>
                     <div class="col s12 m4 l4">
                         <div class="card yellow darken-3">
-                            <div class="card-content white-text">
+                            <div class="card-content white-text center">
                                 <h5 class="center">11,900 <br>
                                     Students Covered</h5>
                             </div>

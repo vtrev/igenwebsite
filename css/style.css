@@ -6,11 +6,13 @@
     list-style-image: url("../images/bullet.png");
 } */
 
-/* .yellow {
-    color: #FDC016 !important;
-} */
-.highlight {
-    background: green !important;
+#stats h5 {
+    font-family: Objective;
+}
+
+.yellow {
+    /* color: #FDC016 !important; */
+    background-color: #FDC016 !important;
 }
 
 .blue {
@@ -103,7 +105,7 @@ h5 {
 /* Navigation */
 
 .table-of-contents a:hover {
-    background-color: white;
+    background-color: transparent;
     border-left: none;
     transition: width .3s;
     color: #109DD5;
@@ -245,7 +247,7 @@ hr.custom {
 .flat-tabs ul.menu-tab {
     overflow: hidden;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 75%;
 }
 
