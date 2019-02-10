@@ -5,6 +5,14 @@
 /* .believe-list {
     list-style-image: url("../images/bullet.png");
 } */
+
+/* .yellow {
+    color: #FDC016 !important;
+} */
+.highlight {
+    background: green !important;
+}
+
 .blue {
     color: #109DD5 !important;
     background-color: #109DD5 !important;
@@ -42,9 +50,8 @@
 }
 
 p {
-    font-family: Proxima-sans;
-    font-weight: lighter;
-    font-size: 16px;
+    font-family: 'Lato', 'Helvetica', 'sans-serif';
+    font-size: 17px;
 }
 
 h1,
@@ -62,8 +69,8 @@ h5 {
 .belive,
 .promise,
 #about p {
-    text-align: justify;
-    text-justify: inter-cluster;
+    text-align: left;
+    /* text-justify: inter-cluster; */
 }
 
 .belive hr,
@@ -184,6 +191,10 @@ hr.custom {
 
 
 /* about section */
+#about i {
+    font-size: 24px;
+    font-family: 'Lato', 'Helvetica', 'sans-serif';
+}
 
 /* card */
 /* card-image */
@@ -255,7 +266,7 @@ hr.custom {
 .flat-tabs ul.menu-tab li a {
     position: relative;
     z-index: 10;
-    background-color: #fff;
+    background-color: #616161;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -271,7 +282,7 @@ hr.custom {
 .flat-tabs ul.menu-tab li a:after {
     width: 20px;
     height: 2px;
-    background-color: #fff;
+    /* background-color: #616161; */
     content: "";
     top: 50%;
     left: -22px;
@@ -285,9 +296,9 @@ hr.custom {
 
 .flat-tabs ul.menu-tab li.active a,
 .flat-tabs ul.menu-tab li a:hover {
-    border: 2px solid #ffaa30;
+    border: 3px solid #FDC016;
     color: #fff;
-    background-color: #ffaa30;
+    background-color: #109DD5;
     color: #fff;
 }
 
@@ -298,7 +309,7 @@ hr.custom {
 .flat-tabs ul.menu-tab li a {
     font-family: "montserrat", sans-serif;
     font-weight: 700;
-    color: #999999;
+    color: white;
     font-size: 16px;
 }
 
@@ -322,21 +333,21 @@ hr.custom {
     margin-bottom: 20px;
 }
 
-#funding2 .btn-large {
+/* #funding2 .btn-large {
     height: 100px;
     width: 100px;
-}
+} */
 
 /* #funding2 hr {
     width: 5px;
 } */
 
-#funding2 p {
+/* #funding2 p {
     font-weight: bold;
     position: relative;
     top: 6px;
     right: 2px;
-}
+} */
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
@@ -443,3 +454,5 @@ hr.custom {
     font-family: Calmwaters;
     src: url("./fonts/Calmwaters.otf");
 }
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);

@@ -1,6 +1,13 @@
 // initialize material and custom javascript
 
+// VueJs
 
+new Vue({
+    el: '#funding',
+    data: {
+        selected: 1
+    }
+})
 
 document.addEventListener('DOMContentLoaded', function () {
     // M.AutoInit();
