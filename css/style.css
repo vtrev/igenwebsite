@@ -47,8 +47,9 @@
     color: darkslategray;
 }
 
-#home.section {
-    padding-top: 0px;
+#home.section,
+#funding2 {
+    padding: 0px;
 }
 
 p {
@@ -108,6 +109,9 @@ h5 {
 }
 
 /* Navigation */
+#nav-mobile li a.yellow {
+    margin: 5px;
+}
 
 .table-of-contents a:hover {
     background-color: transparent;
@@ -342,27 +346,12 @@ hr.custom {
     margin-bottom: 20px;
 }
 
-/* #funding2 .btn-large {
-    height: 100px;
-    width: 100px;
-} */
-
-/* #funding2 hr {
-    width: 5px;
-} */
-
-/* #funding2 p {
-    font-weight: bold;
-    position: relative;
-    top: 6px;
-    right: 2px;
-} */
-
 /* Media queries*/
 @media only screen and (max-width: 600px) {
 
     .menu-tab {
         display: none !important;
+
     }
 
     nav i.material-icons {

@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     var management2ScrollspyElems = document.querySelectorAll('#management2');
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
-        scrollOffset: 250
+        scrollOffset: 230
     });
 
     // sidenav initilalize
