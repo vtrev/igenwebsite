@@ -102,6 +102,11 @@ h5 {
     width: 40%;
 }
 
+#partners2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 /* Navigation */
 
 .table-of-contents a:hover {
