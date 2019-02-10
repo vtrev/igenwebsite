@@ -245,7 +245,8 @@ hr.custom {
 .flat-tabs ul.menu-tab {
     overflow: hidden;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    width: 75%;
 }
 
 .flat-tabs ul.menu-tab:after {
@@ -261,6 +262,7 @@ hr.custom {
 
 .flat-tabs ul.menu-tab li {
     display: inline-block;
+    width: 150px;
 }
 
 .flat-tabs ul.menu-tab li a {

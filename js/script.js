@@ -1,7 +1,7 @@
 // initialize material and custom javascript
 
-// VueJs
 
+// VueJs
 new Vue({
     el: '#funding',
     data: {
@@ -9,20 +9,20 @@ new Vue({
     }
 })
 
+
 document.addEventListener('DOMContentLoaded', function () {
-    // M.AutoInit();
     var topSlider = document.querySelectorAll('#top-slider');
     var carouselInstances = M.Carousel.init(topSlider, {
         indicators: true,
         fullWidth: true
     });
-
+    // partners carousel
     var partnerCarousel = document.querySelectorAll('.partner-caurosel');
     var partnerCarouselInstance = M.Carousel.init(partnerCarousel, {
         indicators: false,
         numVisible: 10,
-        dist: -20,
-        padding: 55
+        dist: -30,
+        padding: 35
     });
     // scrollspy
     var scrollspyElems = document.querySelectorAll('.scrollspy');
