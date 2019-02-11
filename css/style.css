@@ -349,9 +349,13 @@ hr.custom {
 /* Media queries*/
 @media only screen and (max-width: 600px) {
 
-    .menu-tab {
-        display: none !important;
+    .flat-tabs ul.menu-tab {
+        margin-bottom: -15px;
+        width: 100%;
+    }
 
+    .flat-tabs ul.menu-tab li {
+        width: 32%;
     }
 
     nav i.material-icons {
@@ -379,8 +383,6 @@ hr.custom {
     .sidenav {
         width: 50%;
     }
-
-
 
     nav {
         height: 110px;
