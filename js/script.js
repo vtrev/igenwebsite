@@ -1,15 +1,5 @@
 // initialize material and custom javascript
 
-
-// VueJs
-new Vue({
-    el: '#funding',
-    data: {
-        selected: 1
-    }
-})
-
-
 document.addEventListener('DOMContentLoaded', function () {
     var topSlider = document.querySelectorAll('#top-slider');
     var carouselInstances = M.Carousel.init(topSlider, {
