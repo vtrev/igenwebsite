@@ -2,16 +2,12 @@
 
 
 /* Global styles */
-/* .believe-list {
-    list-style-image: url("../images/bullet.png");
-} */
 
 #stats h5 {
     font-family: Objective;
 }
 
 .yellow {
-    /* color: #FDC016 !important; */
     background-color: #FDC016 !important;
 }
 
@@ -138,7 +134,6 @@ nav {
     height: 126px;
 }
 
-
 nav ul li {
     font-weight: bolder;
     position: relative;
@@ -152,7 +147,6 @@ nav ul a {
 }
 
 /* Side navigation */
-
 #top-slider {
     height: 485.594px !important;
 }
@@ -163,7 +157,6 @@ hr.custom {
     border: 0;
     height: 1px;
 }
-
 
 /* management */
 
@@ -199,7 +192,6 @@ hr.custom {
 .carousel .carousel-slider {
     height: 50px;
 }
-
 
 /* about section */
 #about i {
@@ -250,7 +242,6 @@ hr.custom {
     color: darkslategray;
 }
 
-
 /* funding */
 /* flat tabs */
 .flat-tabs ul.menu-tab {
@@ -295,7 +286,6 @@ hr.custom {
 .flat-tabs ul.menu-tab li a:after {
     width: 20px;
     height: 2px;
-    /* background-color: #616161; */
     content: "";
     top: 50%;
     left: -22px;
