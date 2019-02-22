@@ -157,6 +157,10 @@ hr.custom {
     border: 0;
     height: 1px;
 }
+/* Staying Support */
+#support h3{
+    color: grey;
+}
 
 /* management */
 
