@@ -100,7 +100,7 @@ h5 {
 }
 
 #partners2 {
-    padding-top: 0px;
+    padding-top: -0px;
     padding-bottom: 0px;
 }
 
@@ -255,7 +255,7 @@ hr.custom {
     position: absolute;
     left: 0;
     top: 50%;
-    width: 100%;
+    width: 65%;
     height: 2px;
     background-color: #eeeeee;
     content: "";
