@@ -43,6 +43,10 @@
     color: darkslategray;
 }
 
+#about h5 {
+    margin-top: -20px;
+}
+
 #home.section,
 #funding2 {
     padding: 0px;
