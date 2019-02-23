@@ -118,6 +118,10 @@ h5 {
     margin: 5px;
 }
 
+ul li a {
+    text-transform: lowercase;
+}
+
 .table-of-contents a:hover {
     background-color: transparent;
     border-left: none;
