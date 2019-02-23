@@ -232,6 +232,10 @@ hr.custom {
     font-size: 24px;
     font-family: 'Lato', 'Helvetica', 'sans-serif';
 }
+
+.belive h4 {
+border-bottom: none;
+}
 /* Leadership section */
 
 .dropdown-content li a {
