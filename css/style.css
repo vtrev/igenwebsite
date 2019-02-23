@@ -169,10 +169,8 @@ hr.custom {
 }
 
 /* Staying Support */
-#support h3 {
-    color: #757575;
-}
-.grey-text{
+
+#support{
     color: #757575 !important;
 }
 /* management */
