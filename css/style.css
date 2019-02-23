@@ -43,6 +43,14 @@
     color: darkslategray;
 }
 
+#about h5 {
+    margin-top: -20px;
+}
+
+#about span {
+    font-size: 18px;
+}
+
 #home.section,
 #funding2 {
     padding: 0px;
@@ -157,6 +165,11 @@ hr.custom {
     margin: 1px 0px;
     border: 0;
     height: 1px;
+}
+
+/* Staying Support */
+#support h3 {
+    color: grey;
 }
 
 /* management */
