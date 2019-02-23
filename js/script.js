@@ -1,6 +1,13 @@
 // initialize material and custom javascript
 
 document.addEventListener('DOMContentLoaded', function () {
+
+
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {});
+
+
+
     var topSlider = document.querySelectorAll('#top-slider');
     var carouselInstances = M.Carousel.init(topSlider, {
         indicators: true,
