@@ -66,7 +66,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: Calmwaters;
+    font-family: Objective;
 }
 
 #management h5 {
@@ -118,9 +118,7 @@ h5 {
     margin: 5px;
 }
 
-ul li a {
-    text-transform: lowercase;
-}
+
 
 .table-of-contents a:hover {
     background-color: transparent;
@@ -156,7 +154,7 @@ nav ul li {
 nav ul a {
     color: gray;
     font-size: 24px;
-    font-family: Calmwaters;
+    font-family: Objective;
 }
 
 /* Side navigation */
@@ -328,7 +326,7 @@ hr.custom {
 }
 
 .flat-tabs ul.menu-tab li a {
-    font-family: "montserrat", sans-serif;
+    font-family: "Objective"
     font-weight: 700;
     color: white;
     font-size: 16px;
