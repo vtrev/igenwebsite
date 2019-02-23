@@ -232,7 +232,11 @@ hr.custom {
     font-size: 24px;
     font-family: 'Lato', 'Helvetica', 'sans-serif';
 }
+/* Leadership section */
 
+.dropdown-content li a {
+    color: #109DD5
+}
 /* card */
 /* card-image */
 
