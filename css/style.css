@@ -3,6 +3,24 @@
 /* for the commit */
 /* Global styles */
 
+#about p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#about-sub p,#funding p{
+    text-align: justify;
+}
+#support p{
+    text-align: justify;
+}
+.container{
+    width: 80% !important;
+}
+heading{
+    font-size: 24px !important;
+}
+
 #stats h5 {
     font-family: Objective;
 }
@@ -73,8 +91,7 @@ h5 {
 }
 
 .belive,
-.promise,
-#about p {
+.promise{
     text-align: left;
     /* text-justify: inter-cluster; */
 }
@@ -103,7 +120,9 @@ h5 {
 }
 
 .brand-logo img {
-    padding-top: 40px;
+    padding-top: 15px;
+    position: relative;
+    left: 50px;
     width: 30%;
 }
 
@@ -353,6 +372,16 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+    #about p{
+        text-align: left;
+    }
+    
+    #about-sub p,#funding p{
+        text-align: left;
+    }
+    #support p{
+        text-align: justify;
+    }
 
     .flat-tabs ul.menu-tab {
         margin-bottom: -15px;
@@ -399,7 +428,7 @@ hr.custom {
     }
 
     .brand-logo img {
-        width: 40%;
+        width: 30%;
     }
 
     .categories .card img {
@@ -420,6 +449,16 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+    #about p{
+        text-align: left;
+    }
+    
+    #about-sub p,#funding p{
+        text-align: left;
+    }
+    #support p{
+        text-align: justify;
+    }
     #home.section {
         padding-top: 0px;
     }
@@ -440,6 +479,7 @@ hr.custom {
 
     .brand-logo img {
         width: 26%;
+        padding-top: 0;
     }
 
 }
