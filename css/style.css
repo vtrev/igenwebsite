@@ -234,7 +234,11 @@ hr.custom {
 }
 
 .belive h4 {
-border-bottom: none;
+    color: grey;
+    border-bottom: none;
+}
+.promise h4 {
+    color: grey;
 }
 /* Leadership section */
 
