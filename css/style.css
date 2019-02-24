@@ -147,15 +147,15 @@ padding-right: 20px;
 
 .table-of-contents a:hover {
     background-color: transparent;
-    border-left: none;
-    transition: width .3s;
+    border-left: 1px solid #109DD5 ;
+    /* transition: width .3s; */
     color: #109DD5;
 
 }
 
 .table-of-contents a.active {
-    font-weight: 500;
-    padding-left: 14px;
+    /* font-weight: 500; */
+    /* padding-left: 14px; */
     color: #109DD5;
     border-left: none !important;
     /* border-left: none; */
