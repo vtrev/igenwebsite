@@ -132,6 +132,11 @@ h5 {
 }
 
 /* Navigation */
+#nav-mobile{
+position: relative;
+top: 65px;
+padding-right: 20px;
+}
 #nav-mobile li a.yellow {
     margin: 5px;
 }
@@ -164,9 +169,9 @@ nav {
 }
 
 nav ul li {
-    font-weight: bolder;
-    position: relative;
-    top: 85px
+    /* font-weight: bolder; */
+    /* position: relative; */
+    /* top: 85px */
 }
 
 nav ul a {
