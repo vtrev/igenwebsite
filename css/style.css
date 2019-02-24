@@ -478,6 +478,11 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+
+    .flat-tabs ul.menu-tab {
+        width: 85%;
+    }
+
     #about p {
         text-align: left;
     }
