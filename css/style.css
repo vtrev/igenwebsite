@@ -3,7 +3,10 @@
 /* for the commit */
 /* Global styles */
 
-
+#supportlink{
+    /* position: relative; */
+    /* bottom: 10px; */
+}
 
 #about p{
     text-align: justify;
@@ -140,25 +143,25 @@ top: 65px;
 padding-right: 20px;
 }
 #nav-mobile li a.yellow {
-    margin: 5px;
+    padding: 0px 14px;
+    height: 43px;
+    line-height: 3rem;
+
+    /* margin: 5px; */
 }
 
 
 
 .table-of-contents a:hover {
     background-color: transparent;
-    border-left: 1px solid #109DD5 ;
-    /* transition: width .3s; */
+    border-left: 1px solid white;
     color: #109DD5;
 
 }
 
 .table-of-contents a.active {
-    /* font-weight: 500; */
-    /* padding-left: 14px; */
     color: #109DD5;
     border-left: none !important;
-    /* border-left: none; */
 }
 
 nav {
@@ -502,6 +505,21 @@ hr.custom {
     }
 
 }
+
+@media screen and (max-width: 1920px) and (min-width: 901px) {
+
+    .flat-tabs ul.menu-tab {
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
 
 /* import fonts */
 @font-face {
