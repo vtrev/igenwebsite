@@ -10,7 +10,7 @@
     text-justify: inter-word;
 }
 
-#about-sub p,#funding p{
+#funding p{
     text-align: justify;
 }
 #support p{
@@ -162,12 +162,12 @@ padding-right: 20px;
 }
 
 nav {
-    height: 200px;
+    height: 180px;
 }
 
 .spacer {
     width: 100%;
-    height: 126px;
+    height: 90px;
 }
 
 nav ul li {

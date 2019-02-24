@@ -35,6 +35,27 @@ document.addEventListener('DOMContentLoaded', function () {
         scrollOffset: 230
     });
 
+    var partner2ScrollspyElems = document.querySelectorAll('#partners');
+    var scrollspyInstances = M.ScrollSpy.init(partner2ScrollspyElems, {
+        scrollOffset: 180
+    });
+    var partner2ScrollspyElems = document.querySelectorAll('#funding');
+    var scrollspyInstances = M.ScrollSpy.init(partner2ScrollspyElems, {
+        scrollOffset: 180
+    });
+    var management2ScrollspyElems = document.querySelectorAll('#management');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 180
+    });
+    var management2ScrollspyElems = document.querySelectorAll('#support');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 180
+    });
+    var management2ScrollspyElems = document.querySelectorAll('#about');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 180
+    });
+
     // sidenav initilalize
     var sideNavElement = document.querySelectorAll('.sidenav');
     var sideNavInstance = M.Sidenav.init(sideNavElement, {
