@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // var instances = M.Dropdown.init(elems, {});
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems, {
-        constrainWidth: true
+        constrainWidth: false
     });
 
 
