@@ -3,26 +3,29 @@
 /* for the commit */
 /* Global styles */
 
-#supportlink{
+#supportlink {
     /* position: relative; */
     /* bottom: 10px; */
 }
 
-#about p{
+#about p {
     text-align: justify;
     text-justify: inter-word;
 }
 
-#funding p{
+#funding p {
     text-align: justify;
 }
-#support p{
+
+#support p {
     text-align: justify;
 }
-.container{
+
+.container {
     width: 80% !important;
 }
-heading{
+
+heading {
     font-size: 24px !important;
 }
 
@@ -83,6 +86,7 @@ p {
     font-family: 'Lato', 'Helvetica', 'sans-serif';
     font-size: 17px;
 }
+
 h1,
 h2,
 h3,
@@ -96,7 +100,7 @@ h5 {
 }
 
 .belive,
-.promise{
+.promise {
     text-align: left;
     /* text-justify: inter-cluster; */
 }
@@ -137,11 +141,12 @@ h5 {
 }
 
 /* Navigation */
-#nav-mobile{
-position: relative;
-top: 65px;
-padding-right: 20px;
+#nav-mobile {
+    position: relative;
+    top: 65px;
+    padding-right: 20px;
 }
+
 #nav-mobile li a.yellow {
     padding: 0px 14px;
     height: 43px;
@@ -181,8 +186,9 @@ nav ul li {
 
 nav ul a {
     color: gray;
-    font-size: 24px;
+    font-size: 18px;
     font-family: Objective;
+
 }
 
 /* Side navigation */
@@ -199,9 +205,10 @@ hr.custom {
 
 /* Staying Support */
 
-#support{
+#support {
     color: #757575 !important;
 }
+
 /* management */
 
 #management,
@@ -247,14 +254,17 @@ hr.custom {
     color: grey;
     border-bottom: none;
 }
+
 .promise h4 {
     color: grey;
 }
+
 /* Leadership section */
 
 .dropdown-content li a {
     color: #109DD5
 }
+
 /* card */
 /* card-image */
 
@@ -394,14 +404,16 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
-    #about p{
+    #about p {
         text-align: left;
     }
-    
-    #about-sub p,#funding p{
+
+    #about-sub p,
+    #funding p {
         text-align: left;
     }
-    #support p{
+
+    #support p {
         text-align: justify;
     }
 
@@ -471,16 +483,19 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
-    #about p{
+    #about p {
         text-align: left;
     }
-    
-    #about-sub p,#funding p{
+
+    #about-sub p,
+    #funding p {
         text-align: left;
     }
-    #support p{
+
+    #support p {
         text-align: justify;
     }
+
     #home.section {
         padding-top: 0px;
     }
