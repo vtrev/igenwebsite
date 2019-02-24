@@ -66,7 +66,7 @@ heading {
 }
 
 #about-sub {
-    color: darkslategray;
+    color: #757575;
 }
 
 #about h5 {
@@ -107,7 +107,7 @@ h5 {
 
 .belive hr,
 .promise hr {
-    border-top: 2px solid darkslategray;
+    border-top: 2px solid #757575;
 
 
 }
@@ -185,7 +185,7 @@ nav ul li {
 }
 
 nav ul a {
-    color: gray;
+    color: #757575;
     font-size: 18px;
     font-family: Objective;
 
@@ -305,7 +305,7 @@ hr.custom {
 }
 
 #support {
-    color: darkslategray;
+    color: #757575;
 }
 
 /* funding */
