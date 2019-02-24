@@ -57,6 +57,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
         scrollOffset: 180
     });
+    var management2ScrollspyElems = document.querySelectorAll('#stats');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 280
+    });
 
     // sidenav initilalize
     var sideNavElement = document.querySelectorAll('.sidenav');
