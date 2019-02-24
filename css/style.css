@@ -404,17 +404,12 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
-    #about p {
-        text-align: left;
-    }
 
+    #about p,
+    #support p,
     #about-sub p,
     #funding p {
-        text-align: left;
-    }
-
-    #support p {
-        text-align: justify;
+        text-align: unset;
     }
 
     .flat-tabs ul.menu-tab {
