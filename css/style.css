@@ -3,10 +3,7 @@
 /* for the commit */
 /* Global styles */
 
-#supportlink {
-    /* position: relative; */
-    /* bottom: 10px; */
-}
+
 
 #support p b {
     font-size: 19px !important;
@@ -39,6 +36,10 @@ heading {
 
 .yellow {
     background-color: #FDC016 !important;
+}
+
+.yellow-text {
+    color: #FDC016 !important;
 }
 
 .blue {
