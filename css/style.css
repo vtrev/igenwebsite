@@ -65,6 +65,11 @@ heading {
     transform: translateY(-50%);
 }
 
+.promise-list li:before {
+    top: 12% !important;
+}
+
+
 #about-sub {
     color: #757575;
 }
