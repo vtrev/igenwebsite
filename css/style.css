@@ -8,6 +8,10 @@
     /* bottom: 10px; */
 }
 
+#support p b {
+    font-size: 19px !important;
+}
+
 #about p {
     text-align: justify;
     text-justify: inter-word;
@@ -552,6 +556,8 @@ hr.custom {
     #support p {
         text-align: justify;
     }
+
+
 
     #home.section {
         padding-top: 0px;
