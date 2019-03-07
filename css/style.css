@@ -47,6 +47,10 @@ heading {
     background-color: #109DD5 !important;
 }
 
+.believe-list p {
+    width: 90%;
+}
+
 .believe-list {
     list-style: none;
     padding-left: 0;
