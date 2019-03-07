@@ -113,6 +113,10 @@ h5 {
     font-family: Objective;
 }
 
+#management p {
+    font-size: 14px;
+}
+
 .belive,
 .promise {
     text-align: left;
