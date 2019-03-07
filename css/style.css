@@ -4,6 +4,9 @@
 /* Global styles */
 
 
+footer a {
+    color: #109DD5 !important;
+}
 
 #support p b {
     font-size: 19px !important;
