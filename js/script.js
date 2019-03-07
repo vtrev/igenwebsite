@@ -46,11 +46,23 @@ document.addEventListener('DOMContentLoaded', function () {
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
         scrollOffset: 180
     });
+    var management2ScrollspyElems = document.querySelectorAll('#management2');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 200
+    });
     var management2ScrollspyElems = document.querySelectorAll('#support');
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
         scrollOffset: 180
     });
+    var management2ScrollspyElems = document.querySelectorAll('#support2');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 60
+    });
     var management2ScrollspyElems = document.querySelectorAll('#about');
+    var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
+        scrollOffset: 180
+    });
+    var management2ScrollspyElems = document.querySelectorAll('#about2');
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
         scrollOffset: 180
     });
