@@ -307,7 +307,6 @@ hr.custom {
 /* funding */
 #funding img {
     width: 50%;
-    height: 50%;
 }
 
 .funding-image {
@@ -477,6 +476,9 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+    #funding img {
+        width: 85%;
+    }
 
     #about p,
     #support p,
@@ -551,6 +553,9 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+    #funding img {
+        width: 65%;
+    }
 
     .flat-tabs ul.menu-tab {
         width: 85%;
