@@ -3,6 +3,10 @@
 /* for the commit */
 /* Global styles */
 
+#quality {
+    position: relative;
+    top: 6px;
+}
 
 footer a {
     color: #109DD5 !important;
@@ -51,7 +55,7 @@ heading {
 }
 
 .believe-list p {
-    width: 90%;
+    /* width: 90%; */
 }
 
 .believe-list {
