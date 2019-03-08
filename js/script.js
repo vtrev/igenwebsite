@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     var management2ScrollspyElems = document.querySelectorAll('#stats');
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
-        scrollOffset: 280
+        scrollOffset: 300
     });
 
     // sidenav initilalize
