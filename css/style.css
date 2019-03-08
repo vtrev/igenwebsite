@@ -2,6 +2,10 @@
 
 /* for the commit */
 /* Global styles */
+#stats {
+    position: relative;
+    bottom: 35px;
+}
 
 #quality {
     position: relative;
@@ -231,6 +235,10 @@ hr.custom {
 /* Staying Support */
 
 #support {
+    color: #757575 !important;
+}
+
+#stats h4 {
     color: #757575 !important;
 }
 
