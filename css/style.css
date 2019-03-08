@@ -2,7 +2,15 @@
 
 /* for the commit */
 /* Global styles */
-#stats {
+
+
+#support table {
+    position: relative;
+    left: 6%;
+}
+
+#stats,
+footer {
     position: relative;
     bottom: 35px;
 }
@@ -239,7 +247,7 @@ hr.custom {
 }
 
 #stats h4 {
-    color: #757575 !important;
+    color: white !important;
 }
 
 /* management */
