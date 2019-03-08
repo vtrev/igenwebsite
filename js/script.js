@@ -1,3 +1,5 @@
+// very dirty code, to be cleaned up,in a rush to lanch
+
 // initialize material and custom javascript
 
 document.addEventListener('DOMContentLoaded', function () {
