@@ -11,10 +11,10 @@
     left: 6%;
 }
 
-#stats,
-footer {
+#stats {
     position: relative;
     bottom: 35px;
+    margin-bottom: -35px;
 }
 
 #quality {
