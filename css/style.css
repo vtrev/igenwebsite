@@ -77,12 +77,12 @@ heading {
     background-size: cover;
     background-position: center;
     left: 0;
-    top: 21%;
+    top: 35%;
     transform: translateY(-50%);
 }
 
 .promise-list li:before {
-    top: 12% !important;
+    top: 28% !important;
 }
 
 
