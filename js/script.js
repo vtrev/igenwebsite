@@ -3,10 +3,23 @@
 // initialize material and custom javascript
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems, {
-        opacity:0.2,preventScrolling:false
+        opacity:0.2,preventScrolling:false,dismissible:true
     });
+//    // var modal1element= document.querySelector('#modal1');
+    // var modal1Instance = M.Modal.init(modal1element,{
+    //         opacity:0.2,preventScrolling:false,dismissible:true
+    //     });
+
+    // var openModal1 = ()=> {
+    //     modal1Instance.open();
+    // }    
+    
+
+
 
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems, {
@@ -139,3 +152,4 @@ let partners = ['cput',
 generatePartners({
     partners
 });
+//modals

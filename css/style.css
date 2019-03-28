@@ -5,9 +5,13 @@
 /* for the commit */
 /* Global styles */
 
-
-
-.modal { width: 80% !important ; 
+.modal .btn{
+   background-color:  #109DD5 !important;
+}
+.modal p{
+    text-align: left;
+}
+.modal { width:90% !important ; 
     height: 100% !important ;
     position: absolute;
     top: 0% !important;
