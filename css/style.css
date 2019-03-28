@@ -6,6 +6,16 @@
 /* Global styles */
 
 
+
+.modal { width: 80% !important ; 
+    height: 100% !important ;
+    position: absolute;
+    top: 0% !important;
+    max-height: 95%;
+}  /* increase the height and width as you desire */
+
+
+
 #support table {
     position: relative;
     left: 6%;
@@ -269,8 +279,8 @@ hr.custom {
 }
 
 .circle-image {
-    height: 270px;
-    width: 275px;
+    height: 295px;
+    width: 300px;
     border-radius: 50%;
 }
 
@@ -498,6 +508,15 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+
+
+    .modal { width: 100% !important ; 
+        height: 100% !important ;
+        max-height: 95%;
+    } 
+    
+
+
     #funding img {
         width: 85%;
     }
