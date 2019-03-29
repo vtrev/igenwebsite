@@ -5,9 +5,14 @@
 /* for the commit */
 /* Global styles */
 
+#footer form{
+    width: 100% ;
+}
 
+#footer .btn{
+    background-color:  #109DD5 !important;
 
-
+}
 .readMoreMbulelo{
     display: none;
 }
