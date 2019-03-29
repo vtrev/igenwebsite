@@ -4,20 +4,28 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    
+
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems, {
-        opacity:0.2,preventScrolling:true,dismissible:true
+        opacity: 0.2, preventScrolling: true, dismissible: true
     });
-//    // var modal1element= document.querySelector('#modal1');
-    // var modal1Instance = M.Modal.init(modal1element,{
-    //         opacity:0.2,preventScrolling:false,dismissible:true
-    //     });
 
-    // var openModal1 = ()=> {
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems, { margin: 15, outDuration: 0, transitionMovement: 0 });
+
+    //var modal1element= document.getElementById('modal1');
+    //var modal1Instance = M.Modal.init(modal1element,{});
+
+    //var openModal1 = ()=> {
     //     modal1Instance.open();
-    // }    
-    
+    //} 
+    // modal1element.addEventListener("mouseover",openModal1,{passive: true});
+    // modal1element.addEventListener("mouseout",modal1Instance.destroy();
+
+
+
+
+
 
 
 
@@ -111,7 +119,6 @@ document.addEventListener('DOMContentLoaded', function () {
     slide();
     slide2();
 });
-
 // Handlebars compilation for the partners caourosel
 let generatePartners = function (partners) {
     var partnersElement = document.getElementById("partner-items");

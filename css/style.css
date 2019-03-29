@@ -8,12 +8,13 @@
 
 
 
+.readMoreMbulelo{
+    display: none;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
-
-
-
 
 .modal .btn{
    background-color:  #109DD5 !important;
