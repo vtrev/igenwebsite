@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems, {
-        opacity:0.2,preventScrolling:false,dismissible:true
+        opacity:0.2,preventScrolling:true,dismissible:true
     });
 //    // var modal1element= document.querySelector('#modal1');
     // var modal1Instance = M.Modal.init(modal1element,{
