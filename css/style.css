@@ -13,10 +13,11 @@
 }
 #footer form{
     width: 100% ;
-    
+    position: relative;
+    bottom: 30px;
 }
 
-#footer .btn{
+#footer .btn-small{
     background-color:  #109DD5 !important;
 
 }
