@@ -16,6 +16,27 @@
     position: relative;
     bottom: 30px;
 }
+#footer .input-field .prefix.active {
+color: #FDC016 !important;
+}
+#footer input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 2px solid #109DD5;
+}
+#footer textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 2px solid #109DD5;
+    color: white;
+
+}
+
+textarea,#footer textarea.materialize-textarea:focus:not([readonly]){
+    color: white
+    }
+#footer textarea.materialize-textarea:focus:not([readonly])+label{
+color: #FDC016
+}
+#footer input[type=text]:not(.browser-default):focus:not([readonly])+label{
+color: #FDC016}
+
 
 #footer .btn-small{
     background-color:  #109DD5 !important;
