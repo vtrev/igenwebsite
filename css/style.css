@@ -5,7 +5,23 @@
 /* for the commit */
 /* Global styles */
 
+.spacedp{
+    text-indent: 92px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.nomarginp{
+    margin-bottom: 0;
+}
 
+.footer-head {
+    color: #FDC016 !important;
+    font-family: Objective;
+    font-size: 1.4rem;
+  }
 
 
 #newmanagement{
@@ -660,6 +676,14 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+    .spacedp{
+    text-indent: 0px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
     #funding img {
         width: 65%;
     }
