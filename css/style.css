@@ -25,7 +25,7 @@
 .footer-head {
     color: #FDC016 !important;
     font-family: Objective;
-    font-size: 1.4rem;
+    font-size: 1.5em;
   }
 
 
@@ -34,10 +34,13 @@
    background-color: #FDC016;
 }
 #footer form{
-    width: 75%;
+    width: 100%;
+    position: relative;
+    bottom: 25px;
+    right: 17px;
 }
 #footer p{
-    font-size: 15px;
+    font-size: 16px;
 }
 #footer .input-field .prefix.active {
 color: #FDC016 !important;
@@ -58,7 +61,7 @@ textarea,#footer textarea.materialize-textarea:focus:not([readonly]){
 color: #FDC016
 }
 #footer input[type=text]:not(.browser-default):focus:not([readonly])+label{
-color: #FDC016}
+    color: rgba(0, 0, 0, 0)}
 
 
 #footer .btn-small{
@@ -593,6 +596,9 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+    #footer .btn-small{
+        float: left;
+       }
     #footer form{
         width: 100%;
     }
@@ -685,14 +691,7 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
-    .spacedp{
-    text-indent: 0px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        margin-left: 0;
-        margin-right: 0;
-        
-    }
+  
     #funding img {
         width: 65%;
     }
