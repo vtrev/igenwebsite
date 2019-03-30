@@ -5,6 +5,11 @@
 /* for the commit */
 /* Global styles */
 
+
+.copyright{
+    font-family: Objective;
+    font-size: 16px;
+}
 .spacedp{
     text-indent: 92px;
     margin-top: 0;
