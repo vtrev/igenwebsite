@@ -5,6 +5,12 @@
 /* for the commit */
 /* Global styles */
 
+
+
+
+#newmanagement{
+   color:   #757575 !important;
+}
 #footer form{
     width: 100% ;
     
@@ -304,6 +310,8 @@ hr.custom {
     height: 295px;
     width: 300px;
     border-radius: 50%;
+        -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -530,6 +538,9 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+    .modal p{
+        text-align: center;
+    }
 
 
     .modal { width: 100% !important ; 
