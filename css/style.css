@@ -112,6 +112,9 @@ heading {
     color: #109DD5 !important;
     background-color: #109DD5 !important;
 }
+.blue-text{
+    color: #109DD5!important;
+}
 
 .believe-list p {
     /* width: 90%; */
