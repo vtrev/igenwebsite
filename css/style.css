@@ -35,10 +35,9 @@
 }
 #footer form{
     width: 75%;
-    /*  ;
-    position: relative;
-    bottom: 33px;
-    left: 87px; */
+}
+#footer p{
+    font-size: 15px;
 }
 #footer .input-field .prefix.active {
 color: #FDC016 !important;
