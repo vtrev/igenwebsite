@@ -33,6 +33,7 @@
 }
 .modal p{
     text-align: justify;
+
 }
 .modal { width:90% !important ; 
     height: 100% !important ;
@@ -40,6 +41,8 @@
     top: 0% !important;
     max-height: 95%;
     color: #757575;
+    overflow:scroll !important;
+
 }  /* increase the height and width as you desire */
 
 
