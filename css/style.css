@@ -6,19 +6,21 @@
 /* Global styles */
 
 
-.copyright{
+.copyright {
     font-family: Objective;
     font-size: 16px;
 }
-.spacedp{
+
+.spacedp {
     text-indent: 92px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    
+
 }
-.nomarginp{
+
+.nomarginp {
     margin-bottom: 0;
 }
 
@@ -26,72 +28,87 @@
     color: #FDC016 !important;
     font-family: Objective;
     font-size: 1.5em;
-  }
-
-
-#newmanagement{
-   color:   white !important;
-   background-color: #FDC016;
 }
-#footer form{
+
+
+#newmanagement {
+    color: white !important;
+    background-color: #FDC016;
+}
+
+#footer form {
     width: 100%;
     position: relative;
     bottom: 25px;
     right: 21px;
 }
-#footer p{
+
+#footer p {
     font-size: 16px;
 }
+
 #footer .input-field .prefix.active {
-color: #FDC016 !important;
+    color: #FDC016 !important;
 }
-#footer input[type=text]:not(.browser-default):focus:not([readonly]){
+
+#footer input[type=text]:not(.browser-default):focus:not([readonly]) {
     border-bottom: 2px solid #109DD5;
 }
-#footer textarea.materialize-textarea:focus:not([readonly]){
+
+#footer textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 2px solid #109DD5;
     color: white;
 
 }
 
-textarea,#footer textarea.materialize-textarea:focus:not([readonly]){
+textarea,
+#footer textarea.materialize-textarea:focus:not([readonly]) {
     color: white
-    }
-#footer textarea.materialize-textarea:focus:not([readonly])+label{
-color: #FDC016
 }
-#footer input[type=text]:not(.browser-default):focus:not([readonly])+label{
-    color: rgba(0, 0, 0, 0)}
+
+#footer textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #FDC016
+}
+
+#footer input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: rgba(0, 0, 0, 0)
+}
 
 
-#footer .btn-small{
-    background-color:  #109DD5 !important;
+#footer .btn-small {
+    background-color: #109DD5 !important;
 
 }
-.readMoreMbulelo{
+
+.readMoreMbulelo {
     display: none;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
-.modal .btn{
-   background-color:  #109DD5 !important;
+.modal .btn {
+    background-color: #109DD5 !important;
 }
-.modal p{
+
+.modal p {
     text-align: justify;
 
 }
-.modal { width:90% !important ; 
-    height: 100% !important ;
+
+.modal {
+    width: 90% !important;
+    height: 100% !important;
     position: absolute;
     top: 0% !important;
     max-height: 95%;
     color: #757575;
-    overflow:scroll !important;
+    overflow: scroll !important;
 
-}  /* increase the height and width as you desire */
+}
+
+/* increase the height and width as you desire */
 
 
 
@@ -99,6 +116,7 @@ color: #FDC016
     position: relative;
     left: 6%;
 }
+
 #support td {
     padding: 9px 5px;
 
@@ -160,8 +178,9 @@ heading {
     color: #109DD5 !important;
     background-color: #109DD5 !important;
 }
-.blue-text{
-    color: #109DD5!important;
+
+.blue-text {
+    color: #109DD5 !important;
 }
 
 .believe-list p {
@@ -368,7 +387,7 @@ hr.custom {
     height: 295px;
     width: 300px;
     border-radius: 50%;
-        -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -596,22 +615,25 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
-    #footer .btn-small{
+    #footer .btn-small {
         float: left;
-       }
-    #footer form{
+    }
+
+    #footer form {
         width: 100%;
     }
-    .modal p{
+
+    .modal p {
         text-align: center;
     }
 
 
-    .modal { width: 100% !important ; 
-        height: 100% !important ;
+    .modal {
+        width: 100% !important;
+        height: 100% !important;
         max-height: 95%;
-    } 
-    
+    }
+
 
 
     #funding img {
@@ -691,7 +713,7 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
-  
+
     #funding img {
         width: 65%;
     }
