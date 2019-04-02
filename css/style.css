@@ -763,6 +763,9 @@ hr.custom {
 }
 
 @media screen and (max-width: 1920px) and (min-width: 901px) {
+    #top-slider {
+        height: 720px !important;
+    }
 
     .flat-tabs ul.menu-tab {
         width: 60%;
