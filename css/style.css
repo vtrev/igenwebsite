@@ -4,6 +4,13 @@
 
 /* for the commit */
 /* Global styles */
+
+/* 
+.modal .modal-content {
+    padding: 10px;
+} */
+
+
 #boardMore{
     display: none;
 }
@@ -91,7 +98,7 @@ textarea,
     display: none;
 }
 
-.modal ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -105,8 +112,8 @@ textarea,
 }
 
 .modal {
-    width: 90% !important;
-    height: 100% !important;
+    width: 100% !important;
+    height:100% !important;
     position: absolute;
     top: 0% !important;
     max-height: 95%;
@@ -189,9 +196,6 @@ heading {
     color: #109DD5 !important;
 }
 
-.believe-list p {
-    /* width: 90%; */
-}
 
 .believe-list {
     list-style: none;
@@ -342,11 +346,6 @@ nav {
     height: 90px;
 }
 
-nav ul li {
-    /* font-weight: bolder; */
-    /* position: relative; */
-    /* top: 85px */
-}
 
 nav ul a {
     color: #757575;
@@ -394,8 +393,8 @@ hr.custom {
 }
 
 .circle-image {
-    height: 295px;
-    width: 300px;
+    height: 70%;
+    width: 70%;
     border-radius: 50%;
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -440,7 +439,7 @@ hr.custom {
 
 
 .card-image img {
-    height: 180px;
+    /* height: 1px; */
     border-radius: 50%;
 }
 
@@ -482,6 +481,8 @@ hr.custom {
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
+ 
+
     #footer .btn-small {
         float: left;
     }
@@ -493,15 +494,6 @@ hr.custom {
     .modal p {
         text-align: center;
     }
-
-
-    .modal {
-        width: 100% !important;
-        height: 100% !important;
-        max-height: 95%;
-    }
-
-
 
     #funding img {
         width: 85%;
@@ -573,13 +565,17 @@ hr.custom {
     }
 
     .circle-image {
-        height: 270px;
-        width: 270px;
+        /* height: 270px; */
+        /* width: 270px; */
         border-radius: 50%;
     }
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+    .modal {
+        width: 100% !important;
+        height: 100% !important;
+    }
     /* .sidenav li>a:hover {
         color: #109DD5;
     } */
@@ -633,6 +629,10 @@ hr.custom {
 }
 
 @media screen and (max-width: 1920px) and (min-width: 1500px) {
+    .modal {
+        width: 100% !important;
+        height: 70% !important;
+    }
     #top-slider {
         height: 800px !important;
     }
