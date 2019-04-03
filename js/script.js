@@ -61,12 +61,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var partner2ScrollspyElems = document.querySelectorAll('#partners2');
     var scrollspyInstances = M.ScrollSpy.init(partner2ScrollspyElems, {
-        scrollOffset: 100
+        scrollOffset: 125
     });
     var management2ScrollspyElems = document.querySelectorAll('#management2');
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
-        scrollOffset: 230
+        scrollOffset: 50
     });
+    // to-do put all 180s in a class
     var management3ScrollspyElems = document.querySelectorAll('#newmanagement');
     var scrollspyInstances = M.ScrollSpy.init(management3ScrollspyElems, {
         scrollOffset: 180

@@ -342,7 +342,7 @@ h5 {
 }
 
 .table-of-contents a.active {
-    color: #109DD5;
+    /* color: #109DD5; */
     border-left: none !important;
 }
 
@@ -591,10 +591,6 @@ hr.custom {
 
     #funding img {
         width: 65%;
-    }
-
-    .flat-tabs ul.menu-tab {
-        width: 85%;
     }
 
     #about p {
