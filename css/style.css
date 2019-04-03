@@ -9,7 +9,7 @@
 }
 
 #boardp{
-    color: white;
+    color: white !important;
     font-size: 17px !important;
 }
 
