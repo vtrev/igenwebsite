@@ -326,8 +326,11 @@ nav ul a {
     font-family: Objective;
 }
 
-#management p {
-    font-size: 14px;
+#management p,#newmanagement p {
+    font-size: 17px;
+}
+#management b,#newmanagement b {
+    font-size: 20px;
 }
 #management,
 #partners {
