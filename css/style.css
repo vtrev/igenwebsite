@@ -302,6 +302,10 @@ h5 {
 }
 
 /* Navigation */
+
+
+
+
 #nav-mobile {
     position: relative;
     top: 65px;
@@ -352,7 +356,7 @@ nav ul a {
 
 }
 
-/* Side navigation */
+/* Slider */
 #top-slider {
     height: 560px !important;
 }
@@ -720,6 +724,9 @@ hr.custom {
 }
 
 @media screen and (max-width: 900px) and (min-width: 605px) {
+    /* .sidenav li>a:hover {
+        color: #109DD5;
+    } */
 
     #funding img {
         width: 65%;
