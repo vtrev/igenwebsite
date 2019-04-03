@@ -60,12 +60,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     var management2ScrollspyElems = document.querySelectorAll('#management2');
     var scrollspyInstances = M.ScrollSpy.init(management2ScrollspyElems, {
-        scrollOffset: 50
+        scrollOffset: 0
     });
     // to-do put all 180s in a class
     var management3ScrollspyElems = document.querySelectorAll('#newmanagement');
     var scrollspyInstances = M.ScrollSpy.init(management3ScrollspyElems, {
-        scrollOffset: 180
+        scrollOffset: 160
     });
 
 
