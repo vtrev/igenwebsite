@@ -34,20 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.tooltipped');
     var instances = M.Tooltip.init(elems, { margin: 15, outDuration: 0, transitionMovement: 0 });
 
-    //var modal1element= document.getElementById('modal1');
-    //var modal1Instance = M.Modal.init(modal1element,{});
-
-    //var openModal1 = ()=> {
-    //     modal1Instance.open();
-    //} 
-    // modal1element.addEventListener("mouseover",openModal1,{passive: true});
-    // modal1element.addEventListener("mouseout",modal1Instance.destroy();
-
-
-
-
-
-
 
 
     var elems = document.querySelectorAll('.dropdown-trigger');

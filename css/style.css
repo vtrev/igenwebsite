@@ -15,9 +15,18 @@
     display: none;
 }
 
-#boardp{
+#boardp,#lerouxp{
     color: white !important;
     font-size: 17px !important;
+}
+
+#lerouxp{
+    position: relative;
+    bottom:10px;
+    display: flex;
+    color: white !important;
+    font-size: 20px !important;
+    text-align: justify;
 }
 
 .copyright {
@@ -629,6 +638,10 @@ hr.custom {
 }
 
 @media screen and (max-width: 1920px) and (min-width: 1500px) {
+    #lerouxp{
+        position: relative;
+        top:15px;
+    }
     .modal {
         width: 100% !important;
         height: 70% !important;
