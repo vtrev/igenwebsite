@@ -4,7 +4,9 @@
 
 /* for the commit */
 /* Global styles */
-
+#boardMore{
+    display: none;
+}
 
 #boardp{
     color: white;

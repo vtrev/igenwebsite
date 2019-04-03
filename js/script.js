@@ -4,6 +4,27 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+    var boadrMoreText = document.querySelector('#boardMore');
+    var boardMoreBtn  = document.querySelector('#boardMorebtn');
+
+    boardMoreBtn.addEventListener('click', () => {
+        if (boadrMoreText.style.display === "none") {
+            boadrMoreText.style.display = "inline-block";
+            boardMoreBtn.innerHTML = "Read less";
+            //moreText.style.display = "none";
+        } else {
+            boadrMoreText.style.display = "none";
+            boardMoreBtn.innerHTML = "Read more";
+            moreText.style.display = "none";
+        }
+    })
+
+
+
+
+
+
+
 
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems, {
