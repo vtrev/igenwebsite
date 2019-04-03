@@ -91,7 +91,7 @@ textarea,
     display: none;
 }
 
-::-webkit-scrollbar {
+.modal ::-webkit-scrollbar {
     display: none;
 }
 
@@ -115,7 +115,6 @@ textarea,
 
 }
 
-/* increase the height and width as you desire */
 
 
 
@@ -479,150 +478,7 @@ hr.custom {
 }
 
 /* funding */
-/* flat tabs */
-.flat-tabs ul.menu-tab {
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 15px;
-    width: 75%;
-}
 
-.flat-tabs ul.menu-tab:after {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 65%;
-    height: 2px;
-    background-color: #eeeeee;
-    content: "";
-    z-index: 2;
-}
-
-.flat-tabs ul.menu-tab li {
-    display: inline-block;
-    width: 150px;
-}
-
-.flat-tabs ul.menu-tab li a {
-    position: relative;
-    z-index: 10;
-    background-color: #616161;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    border: 2px solid #eeeeee;
-    list-style-type: none;
-    border-radius: 50%;
-    margin-right: 200px;
-    display: block;
-}
-
-.flat-tabs ul.menu-tab li a:before,
-.flat-tabs ul.menu-tab li a:after {
-    width: 20px;
-    height: 2px;
-    content: "";
-    top: 50%;
-    left: -22px;
-    position: absolute;
-}
-
-.flat-tabs ul.menu-tab li a:after {
-    left: 100%;
-    margin-left: 2px;
-}
-
-.flat-tabs ul.menu-tab li.active a,
-.flat-tabs ul.menu-tab li a:hover {
-    border: 3px solid #FDC016;
-    color: #fff;
-    background-color: #109DD5;
-    color: #fff;
-}
-
-.flat-tabs ul.menu-tab li:last-child a {
-    margin-right: 0;
-}
-
-.flat-tabs ul.menu-tab li a {
-    font-family: "Objective";
-    color: white;
-    font-size: 16px;
-}
-
-.flat-tabs .flat-title {
-    margin-bottom: 34px;
-}
-
-.flat-tabs .content-tab .text-tab {
-    width: 59.82905982905983%;
-    float: left;
-    padding-right: 60px;
-    padding-top: 5px;
-}
-
-.flat-tabs .content-tab .images-tab {
-    width: 40.17094017094017%;
-    float: left;
-}
-
-.flat-tabs .content-tab p {
-    margin-bottom: 20px;
-}
-
-/* Flip card */
-.flip-card {
-    background-color: transparent;
-    width: 330px;
-    height: 320px;
-    /* border: 1px solid #f1f1f1; */
-    perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-    /* background-color: #bbb; */
-    color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-    /* background-color: dodgerblue; */
-    color: gray;
-    transform: rotateY(180deg);
-}
-
-.flip-card img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
 
 /* Media queries*/
 @media only screen and (max-width: 600px) {
@@ -778,7 +634,7 @@ hr.custom {
 
 @media screen and (max-width: 1920px) and (min-width: 1500px) {
     #top-slider {
-        height: 720px !important;
+        height: 800px !important;
     }
 
     .flat-tabs ul.menu-tab {
