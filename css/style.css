@@ -6,6 +6,11 @@
 /* Global styles */
 
 
+#boardp{
+    color: white;
+    font-size: 17px !important;
+}
+
 .copyright {
     font-family: Objective;
     font-size: 16px;
