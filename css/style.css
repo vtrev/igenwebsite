@@ -2,50 +2,23 @@
 
 /* Custom styles and materialize override */
 
-/* for the commit */
-/* Global styles */
+/* ============================================================================================  Global styles ============================================================================================*/
 
-/* 
-.modal .modal-content {
-    padding: 10px;
-} */
-
-
-#boardMore{
-    display: none;
+/* fancy hr */
+hr.custom {
+    margin: 1px 0px;
+    border: 0;
+    height: 1px;
 }
 
-#boardp,#lerouxp{
-    color: white !important;
-    font-size: 17px !important;
-}
 
-#lerouxp{
-    position: relative;
-    bottom:10px;
-    display: flex;
-    color: white !important;
-    font-size: 20px !important;
-    text-align: justify;
-}
-
-.copyright {
-    font-family: Objective;
-    font-size: 16px;
-}
-
-.spacedp {
-    text-indent: 92px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-
-}
 
 .nomarginp {
     margin-bottom: 0;
 }
+
+
+
 
 .footer-head {
     color: #FDC016 !important;
@@ -54,54 +27,6 @@
 }
 
 
-#newmanagement {
-    color: white !important;
-    background-color: #FDC016;
-}
-
-#footer form {
-    width: 100%;
-    position: relative;
-    bottom: 25px;
-    right: 21px;
-}
-
-#footer p {
-    font-size: 16px;
-}
-
-#footer .input-field .prefix.active {
-    color: #FDC016 !important;
-}
-
-#footer input[type=text]:not(.browser-default):focus:not([readonly]) {
-    border-bottom: 2px solid #109DD5;
-}
-
-#footer textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 2px solid #109DD5;
-    color: white;
-
-}
-
-textarea,
-#footer textarea.materialize-textarea:focus:not([readonly]) {
-    color: white
-}
-
-#footer textarea.materialize-textarea:focus:not([readonly])+label {
-    color: #FDC016
-}
-
-#footer input[type=text]:not(.browser-default):focus:not([readonly])+label {
-    color: rgba(0, 0, 0, 0)
-}
-
-
-#footer .btn-small {
-    background-color: #109DD5 !important;
-
-}
 
 .readMoreMbulelo {
     display: none;
@@ -122,7 +47,7 @@ textarea,
 
 .modal {
     width: 100% !important;
-    height:100% !important;
+    height: 100% !important;
     position: absolute;
     top: 0% !important;
     max-height: 95%;
@@ -134,15 +59,7 @@ textarea,
 
 
 
-#support table {
-    position: relative;
-    left: 6%;
-}
 
-#support td {
-    padding: 9px 5px;
-
-}
 
 #stats {
     position: relative;
@@ -159,9 +76,7 @@ footer a {
     color: #109DD5 !important;
 }
 
-#support p b {
-    font-size: 19px !important;
-}
+
 
 #about p {
     text-align: justify;
@@ -172,9 +87,7 @@ footer a {
     text-align: justify;
 }
 
-#support p {
-    text-align: justify;
-}
+
 
 .container {
     width: 80% !important;
@@ -263,14 +176,11 @@ h4,
 h5 {
     font-family: Objective;
 }
-
-#management h5 {
-    font-family: Objective;
+#boardMore {
+    display: none;
 }
 
-#management p {
-    font-size: 14px;
-}
+
 
 .belive,
 .promise {
@@ -328,8 +238,6 @@ h5 {
     padding: 0px 14px;
     height: 43px;
     line-height: 3rem;
-
-    /* margin: 5px; */
 }
 
 
@@ -368,25 +276,59 @@ nav ul a {
     height: 560px !important;
 }
 
-/* fancy hr */
-hr.custom {
-    margin: 1px 0px;
-    border: 0;
-    height: 1px;
-}
 
-/* Staying Support */
+/* ==================================================================================== Support  =========================================================================================================*/
 
 #support {
     color: #757575 !important;
 }
+#support p {
+    text-align: justify;
+}
+#support p b {
+    font-size: 19px !important;
+}
+#support table {
+    position: relative;
+    left: 6%;
+}
 
+#support td {
+    padding: 9px 5px;
+
+}
 #stats h4 {
     color: white !important;
 }
 
-/* management */
+/*=================================================================================== management ========================================================================================================*/
 
+#newmanagement {
+    color: white !important;
+    background-color: #FDC016;
+}
+
+#boardp,
+#lerouxp {
+    color: white !important;
+    font-size: 17px !important;
+}
+
+#lerouxp {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    color: white !important;
+    font-size: 20px !important;
+    text-align: justify;
+}
+#management h5 {
+    font-family: Objective;
+}
+
+#management p {
+    font-size: 14px;
+}
 #management,
 #partners {
     background-image: url("../images/managementbg.svg");
@@ -394,11 +336,6 @@ hr.custom {
 
 #management h5 {
     font-weight: bold;
-}
-
-.circle {
-    border-radius: 50%;
-    height: 150%;
 }
 
 .circle-image {
@@ -410,7 +347,7 @@ hr.custom {
 }
 
 
-/* partners */
+/* ============================================================================================ partners ===================================================================================================*/
 #partners {
     background-color: #169ed7;
 }
@@ -437,7 +374,6 @@ hr.custom {
     color: grey;
 }
 
-/* Leadership section */
 
 .dropdown-content li a {
     color: #109DD5
@@ -485,12 +421,67 @@ hr.custom {
     color: #757575;
 }
 
-/* funding */
+/*============================================================================================================ funding  =======================================================================================*/
 
 
-/* Media queries*/
+
+
+
+/* ===========================================================================================================  Footer ===================================================================================== */
+.copyright {
+    font-family: Objective;
+    font-size: 16px;
+}
+
+#footer form {
+    width: 100%;
+    position: relative;
+    bottom: 25px;
+    right: 21px;
+}
+
+#footer p {
+    font-size: 16px;
+}
+
+#footer .input-field .prefix.active {
+    color: #FDC016 !important;
+}
+
+#footer input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 2px solid #109DD5;
+}
+
+#footer textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 2px solid #109DD5;
+    color: white;
+
+}
+
+textarea,
+#footer textarea.materialize-textarea:focus:not([readonly]) {
+    color: white
+}
+
+#footer textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #FDC016
+}
+
+#footer input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: rgba(0, 0, 0, 0)
+}
+
+
+#footer .btn-small {
+    background-color: #109DD5 !important;
+
+}
+/*=========================================================================================== Media queries ===============================================================================================*/
 @media only screen and (max-width: 600px) {
- 
+    #lerouxp {
+        text-align: left;
+    }
+
 
     #footer .btn-small {
         float: left;
@@ -574,8 +565,6 @@ hr.custom {
     }
 
     .circle-image {
-        /* height: 270px; */
-        /* width: 270px; */
         border-radius: 50%;
     }
 }
@@ -585,6 +574,7 @@ hr.custom {
         width: 100% !important;
         height: 100% !important;
     }
+
     /* .sidenav li>a:hover {
         color: #109DD5;
     } */
@@ -634,14 +624,16 @@ hr.custom {
 }
 
 @media screen and (max-width: 1920px) and (min-width: 1500px) {
-    #lerouxp{
+    #lerouxp {
         position: relative;
-        top:15px;
+        top: 15px;
     }
+
     .modal {
         width: 100% !important;
-        height: 70% !important;
+        height: 77% !important;
     }
+
     #top-slider {
         height: 800px !important;
     }
