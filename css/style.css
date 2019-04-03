@@ -769,7 +769,7 @@ hr.custom {
 
 }
 
-@media screen and (max-width: 1920px) and (min-width: 901px) {
+@media screen and (max-width: 1920px) and (min-width: 1500px) {
     #top-slider {
         height: 720px !important;
     }
