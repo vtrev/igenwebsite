@@ -1,4 +1,4 @@
-// very dirty code, to be cleaned up,in a rush to lanch
+//todo clean up code,in a rush to lanch
 
 // initialize material and custom javascript
 
