@@ -316,10 +316,10 @@ nav ul a {
 
 #lerouxp {
     position: relative;
-    bottom: 10px;
+    top: 10px;
     display: flex;
     color: white !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
     text-align: justify;
 }
 #management h5 {
