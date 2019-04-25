@@ -46,16 +46,18 @@ hr.custom {
 }
 
 .modal {
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0% !important;
     max-height: 95%;
     color: #757575;
-    overflow: scroll !important;
-
+    overflow-y: hidden !important;
+    
 }
-
+.modal-content{
+    padding-bottom: 5px !important
+}
 
 
 
@@ -643,7 +645,7 @@ textarea,
 
 }
 
-@media screen and (max-width: 1920px) and (min-width: 1500px) {
+/* @media screen and (max-width: 1920px) and (min-width: 1500px) {
     #lerouxp {
         position: relative;
         top: 15px;
@@ -661,7 +663,7 @@ textarea,
     .flat-tabs ul.menu-tab {
         width: 60%;
     }
-}
+} */
 
 
 
@@ -683,3 +685,28 @@ textarea,
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+
+
+
+
+
+
+
+
+
+
+ #outerfixed {overflow:hidden;
+     height:120%;
+      width:100%;  
+      /* background-color:blue;  */
+      /* padding:5px;  */
+      top:0px; 
+      bottom:0px;
+     }
+        #innerstatic2 {
+            padding-top: 2px;
+            max-height:300px; 
+            overflow:auto; 
+            /* background-color:red;  */
+            width:100%; }
