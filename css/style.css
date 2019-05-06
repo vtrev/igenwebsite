@@ -53,12 +53,22 @@ hr.custom {
     max-height: 95%;
     color: #757575;
     overflow-y: hidden !important;
-    
+
 }
-.modal-content{
+
+.modal-content {
     padding-bottom: 5px !important
 }
 
+.modal-top img {
+    width: 100px;
+    height: 100px;
+}
+
+.modal-top div {
+    height: 100px;
+
+}
 
 
 
@@ -178,6 +188,7 @@ h4,
 h5 {
     font-family: Objective;
 }
+
 #boardMore {
     display: none;
 }
@@ -280,22 +291,27 @@ nav ul a {
 
 
 /* ==================================================================================== Support  =========================================================================================================*/
-#support b,#about-sub b {
-    color:#109DD5;
+#support b,
+#about-sub b {
+    color: #109DD5;
 }
-#banking-details{
+
+#banking-details {
     width: 80%;
 }
 
 #support {
     color: #757575 !important;
 }
+
 #support p {
     text-align: justify;
 }
+
 #support p b {
     font-size: 19px !important;
 }
+
 #support table {
     position: relative;
     left: 6%;
@@ -305,6 +321,7 @@ nav ul a {
     padding: 9px 5px;
 
 }
+
 #stats h4 {
     color: white !important;
 }
@@ -320,7 +337,7 @@ nav ul a {
 #lerouxp {
     color: white !important;
     font-size: 17px !important;
-    text-align: justify;    
+    text-align: justify;
 }
 
 #lerouxp {
@@ -331,16 +348,21 @@ nav ul a {
     font-size: 16px !important;
     text-align: justify;
 }
+
 #management h5 {
     font-family: Objective;
 }
 
-#management p,#newmanagement p {
+#management p,
+#newmanagement p {
     font-size: 17px;
 }
-#management b,#newmanagement b {
+
+#management b,
+#newmanagement b {
     font-size: 20px;
 }
+
 #management,
 #partners {
     background-image: url("../images/managementbg.svg");
@@ -357,6 +379,7 @@ nav ul a {
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #management2 {
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -441,8 +464,8 @@ nav ul a {
 
 
 /* =========================================================================== stats ===================================================== */
-#stats i{
-font-size: 13px;
+#stats i {
+    font-size: 13px;
 
 }
 
@@ -495,12 +518,42 @@ textarea,
     background-color: #109DD5 !important;
 
 }
+
 /*=========================================================================================== Media queries ===============================================================================================*/
 @media only screen and (max-width: 600px) {
-    #banking-details{
+    .modal-open {
+        height: 350px !important;
+    }
+
+    #innerstatic2 {
+        /* padding-top: 2px; */
+        max-height: 250px;
+        overflow: auto;
+        width: 100%;
+        position: relative;
+        bottom: 40px;
+    }
+
+
+    .modal-top div,
+    .modal hr {
+        display: none;
+    }
+
+    .top-modal-col {
+        /* height: 500px; */
+    }
+
+    /* .top-modal-col img {
+        height: 100px;
+    } */
+
+    #banking-details {
         width: 100%;
     }
-    #lerouxp,#boardp {
+
+    #lerouxp,
+    #boardp {
         text-align: left;
     }
 
@@ -591,7 +644,22 @@ textarea,
     }
 }
 
-@media screen and (max-width: 900px) and (min-width: 605px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    #innerstatic2 {
+        /* padding-top: 2px; */
+        max-height: 250px;
+        overflow: auto;
+        width: 100%;
+        position: relative;
+        bottom: 40px;
+    }
+
+
+    .modal-top div,
+    .modal hr {
+        display: none;
+    }
+
     .modal {
         width: 100% !important;
         height: 100% !important;
@@ -688,25 +756,20 @@ textarea,
 
 
 
+#outerfixed {
+    overflow: hidden;
+    height: 400%;
+    width: 100%;
+    /* background-color:blue;  */
+    /* padding:5px;  */
+    top: 0px;
+    bottom: 0px;
+}
 
-
-
-
-
-
-
-
- #outerfixed {overflow:hidden;
-     height:120%;
-      width:100%;  
-      /* background-color:blue;  */
-      /* padding:5px;  */
-      top:0px; 
-      bottom:0px;
-     }
-        #innerstatic2 {
-            padding-top: 2px;
-            max-height:300px; 
-            overflow:auto; 
-            /* background-color:red;  */
-            width:100%; }
+#innerstatic2 {
+    /* padding-top: 2px; */
+    max-height: 300px;
+    overflow: auto;
+    /* background-color:red;  */
+    width: 100%;
+}

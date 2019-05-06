@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     var boadrMoreText = document.querySelector('#boardMore');
-    var boardMoreBtn  = document.querySelector('#boardMorebtn');
+    var boardMoreBtn = document.querySelector('#boardMorebtn');
 
     boardMoreBtn.addEventListener('click', () => {
         if (boadrMoreText.style.display === "none") {
@@ -20,14 +20,79 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
 
-
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, {
-        opacity: 0.2, preventScrolling: true, dismissible: true
+    // seperate initialization of modals in order to modify the size pf underlying div on one element and not all
+    var modal1element = document.querySelector('#modal1');
+    var instances = M.Modal.init(modal1element, {
+        opacity: 0.2,
+        preventScrolling: true,
+        dismissible: true,
+        onOpenStart: function () {
+            var modalElement = document.querySelector(".top-modal1-col");
+            modalElement.classList.add("modal-open");
+        },
+        onCloseStart: function () {
+            var modalElement = document.querySelector(".top-modal1-col");
+            modalElement.classList.remove("modal-open");
+        }
     });
 
+
+    var modal2element = document.querySelector('#modal2');
+    var instances = M.Modal.init(modal2element, {
+        opacity: 0.2,
+        preventScrolling: true,
+        dismissible: true,
+        onOpenStart: function () {
+            var modalElement = document.querySelector(".top-modal2-col");
+            modalElement.classList.add("modal-open");
+        },
+        onCloseStart: function () {
+            var modalElement = document.querySelector(".top-modal2-col");
+            modalElement.classList.remove("modal-open");
+        }
+    });
+
+
+    var modal3element = document.querySelector('#modal3');
+    var instances = M.Modal.init(modal3element, {
+        opacity: 0.2,
+        preventScrolling: true,
+        dismissible: true,
+        onOpenStart: function () {
+            var modalElement = document.querySelector(".top-modal3-col");
+            modalElement.classList.add("modal-open");
+        },
+        onCloseStart: function () {
+            var modalElement = document.querySelector(".top-modal3-col");
+            modalElement.classList.remove("modal-open");
+        }
+    });
+
+
+    var modal4element = document.querySelectorAll('#modal4');
+    var instances = M.Modal.init(modal4element, {
+        opacity: 0.2,
+        preventScrolling: true,
+        dismissible: true,
+        onOpenStart: function () {
+            var modalElement = document.querySelector(".top-modal4-col");
+            modalElement.classList.add("modal-open");
+        },
+        onCloseStart: function () {
+            var modalElement = document.querySelector(".top-modal4-col");
+            modalElement.classList.remove("modal-open");
+        }
+    });
+
+
+
+
     var elems = document.querySelectorAll('.tooltipped');
-    var instances = M.Tooltip.init(elems, { margin: 15, outDuration: 0, transitionMovement: 0 });
+    var instances = M.Tooltip.init(elems, {
+        margin: 15,
+        outDuration: 0,
+        transitionMovement: 0
+    });
 
 
 
