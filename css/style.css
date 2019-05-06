@@ -11,14 +11,9 @@ hr.custom {
     height: 1px;
 }
 
-
-
 .nomarginp {
     margin-bottom: 0;
 }
-
-
-
 
 .footer-head {
     color: #FDC016 !important;
@@ -185,7 +180,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.circles b {
     font-family: Objective;
 }
 
@@ -313,8 +309,8 @@ nav ul a {
 }
 
 #support table {
-    position: relative;
-    left: 6%;
+    /* position: relative;
+    left: 6%; */
 }
 
 #support td {
