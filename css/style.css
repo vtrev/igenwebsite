@@ -525,6 +525,12 @@ textarea,
         height: 350px !important;
     }
 
+    .modal-top div,
+    .modal hr {
+        display: none;
+    }
+
+
     #innerstatic2 {
         /* padding-top: 2px; */
         max-height: 250px;
@@ -533,20 +539,6 @@ textarea,
         position: relative;
         bottom: 40px;
     }
-
-
-    .modal-top div,
-    .modal hr {
-        display: none;
-    }
-
-    .top-modal-col {
-        /* height: 500px; */
-    }
-
-    /* .top-modal-col img {
-        height: 100px;
-    } */
 
     #banking-details {
         width: 100%;
@@ -644,7 +636,31 @@ textarea,
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .modal-top div,
+    .modal hr {
+        display: none;
+    }
+
+    .modal .modal-content p {
+        text-align: left !important;
+    }
+
+    .modal-open {
+        height: 350px !important;
+    }
+
+    #innerstatic2 {
+        /* padding-top: 2px; */
+        max-height: 250px;
+        overflow: auto;
+        width: 100%;
+        position: relative;
+        bottom: 40px;
+    }
+
+
     #innerstatic2 {
         /* padding-top: 2px; */
         max-height: 250px;
