@@ -46,6 +46,7 @@ hr.custom {
     position: absolute;
     top: 0% !important;
     max-height: 95%;
+    background-color: white;
     color: #757575;
     overflow-y: hidden !important;
 
