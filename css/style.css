@@ -726,25 +726,11 @@ textarea,
 
 }
 
-/* @media screen and (max-width: 1920px) and (min-width: 1500px) {
-    #lerouxp {
-        position: relative;
-        top: 15px;
-    }
-
-    .modal {
-        width: 100% !important;
-        height: 77% !important;
-    }
-
+@media screen and (min-width: 1229px) {
     #top-slider {
-        height: 800px !important;
+        height: 720px !important;
     }
-
-    .flat-tabs ul.menu-tab {
-        width: 60%;
-    }
-} */
+}
 
 
 

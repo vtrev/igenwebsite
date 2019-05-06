@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         dismissible: true,
         onOpenStart: function () {
             var modalElement = document.querySelector(".top-modal1-col");
+            // modalElement.style.display = "none";
             modalElement.classList.add("modal-open");
         },
         onCloseStart: function () {
