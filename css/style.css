@@ -307,6 +307,7 @@ nav ul a {
 
 #support p b {
     font-size: 19px !important;
+    font-weight: unset;
 }
 
 #support table {
