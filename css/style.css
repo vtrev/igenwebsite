@@ -127,6 +127,16 @@ heading {
 }
 
 
+.believe-list li {
+
+
+    /* list-style-image: url('../images/bullet.png');
+    font-family: 'Lato',
+        'Helvetica',
+        'sans-serif';
+    font-size: 17px; */
+}
+
 .believe-list {
     list-style: none;
     padding-left: 0;
@@ -134,24 +144,24 @@ heading {
 
 .believe-list li {
     position: relative;
-    padding-left: 34px;
+    padding-left: 30px;
+    font-family: 'Lato',
+        'Helvetica',
+        'sans-serif';
+    font-size: 17px;
 }
 
 .believe-list li:before {
     content: '';
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    background-image: url('../images/bullet.png');
+    background-image: url('/images/bullet.png');
     background-size: cover;
     background-position: center;
     left: 0;
-    top: 35%;
+    top: 50%;
     transform: translateY(-50%);
-}
-
-.promise-list li:before {
-    top: 28% !important;
 }
 
 
