@@ -306,13 +306,9 @@ nav ul a {
 }
 
 #support p b {
-    font-size: 19px !important;
+    font-weight: bold;
 }
 
-#support table {
-    /* position: relative;
-    left: 6%; */
-}
 
 #support td {
     padding: 9px 5px;
