@@ -663,22 +663,6 @@ textarea,
         bottom: 40px;
     }
 
-
-    #innerstatic2 {
-        /* padding-top: 2px; */
-        max-height: 250px;
-        overflow: auto;
-        width: 100%;
-        position: relative;
-        bottom: 40px;
-    }
-
-
-    .modal-top div,
-    .modal hr {
-        display: none;
-    }
-
     .modal {
         width: 100% !important;
         height: 100% !important;
@@ -732,9 +716,22 @@ textarea,
 
 }
 
-@media screen and (min-width: 1229px) {
+@media screen and (min-width: 1030px) {
+
+    .modal-open {
+        height: 500px !important;
+    }
+
     #top-slider {
         height: 720px !important;
+    }
+
+    #innerstatic2 {
+        /* padding-top: 2px; */
+        max-height: 250px;
+        overflow: auto;
+        width: 100%;
+        position: relative;
     }
 }
 
